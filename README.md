@@ -35,5 +35,7 @@ Sharing my reading notes while pursuing graduate study. These notes include C++,
 ### 中国文学作品读书笔记
 1. [现实中如何评判路遥《人生》中的高加林？](http://blog.csdn.net/lanxuezaipiao/article/details/41847597)
 
+2. [沈从文《边城》中的“碾坊”与“渡船”、“车路”与“马路”](http://www.jianshu.com/p/7ad2565c9b2f)
+
 ### 其它读物笔记
 1. [《编程人生》部分笔记摘要及我的体会—引领大师编程智慧](http://blog.csdn.net/lanxuezaipiao/article/details/19159311)
