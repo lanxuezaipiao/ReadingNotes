@@ -39,3 +39,4 @@ Sharing my reading notes while pursuing graduate study. These notes include C++,
 
 ### 其它读物笔记
 1. [《编程人生》部分笔记摘要及我的体会—引领大师编程智慧](http://blog.csdn.net/lanxuezaipiao/article/details/19159311)
+2. [十年京东，十年技术发展—畅读《京东技术解密》](http://blog.csdn.net/lanxuezaipiao/article/details/42506829)
