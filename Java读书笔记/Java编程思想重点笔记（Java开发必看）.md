@@ -1,7 +1,7 @@
-### 1. JavaÖÐµÄ¶àÌ¬ÐÔÀí½â£¨×¢ÒâÓëC++Çø·Ö£©
- - **JavaÖÐ³ýÁËstatic·½·¨ºÍfinal·½·¨£¨private·½·¨±¾ÖÊÉÏÊôÓÚfinal·½·¨£¬ÒòÎª²»ÄÜ±»×ÓÀà·ÃÎÊ£©Ö®Íâ£¬ÆäËüËùÓÐµÄ·½·¨¶¼ÊÇ¶¯Ì¬°ó¶¨**£¬ÕâÒâÎ¶×ÅÍ¨³£Çé¿öÏÂ£¬ÎÒÃÇ²»±ØÅÐ¶¨ÊÇ·ñÓ¦¸Ã½øÐÐ¶¯Ì¬°ó¶¨¡ªËü»á×Ô¶¯·¢Éú¡£
-     - final·½·¨»áÊ¹±àÒëÆ÷Éú³É¸üÓÐÐ§µÄ´úÂë£¬ÕâÒ²ÊÇÎªÊ²Ã´ËµÉùÃ÷Îªfinal·½·¨ÄÜÔÚÒ»¶¨³Ì¶ÈÉÏÌá¸ßÐÔÄÜ£¨Ð§¹û²»Ã÷ÏÔ£©¡£
-     - Èç¹ûÄ³¸ö·½·¨ÊÇ¾²Ì¬µÄ£¬ËüµÄÐÐÎª¾Í²»¾ßÓÐ¶àÌ¬ÐÔ£º
+### 1. Javaä¸­çš„å¤šæ€æ€§ç†è§£ï¼ˆæ³¨æ„ä¸ŽC++åŒºåˆ†ï¼‰
+ - **Javaä¸­é™¤äº†staticæ–¹æ³•å’Œfinalæ–¹æ³•ï¼ˆprivateæ–¹æ³•æœ¬è´¨ä¸Šå±žäºŽfinalæ–¹æ³•ï¼Œå› ä¸ºä¸èƒ½è¢«å­ç±»è®¿é—®ï¼‰ä¹‹å¤–ï¼Œå…¶å®ƒæ‰€æœ‰çš„æ–¹æ³•éƒ½æ˜¯åŠ¨æ€ç»‘å®š**ï¼Œè¿™æ„å‘³ç€é€šå¸¸æƒ…å†µä¸‹ï¼Œæˆ‘ä»¬ä¸å¿…åˆ¤å®šæ˜¯å¦åº”è¯¥è¿›è¡ŒåŠ¨æ€ç»‘å®šâ€”å®ƒä¼šè‡ªåŠ¨å‘ç”Ÿã€‚
+     - finalæ–¹æ³•ä¼šä½¿ç¼–è¯‘å™¨ç”Ÿæˆæ›´æœ‰æ•ˆçš„ä»£ç ï¼Œè¿™ä¹Ÿæ˜¯ä¸ºä»€ä¹ˆè¯´å£°æ˜Žä¸ºfinalæ–¹æ³•èƒ½åœ¨ä¸€å®šç¨‹åº¦ä¸Šæé«˜æ€§èƒ½ï¼ˆæ•ˆæžœä¸æ˜Žæ˜¾ï¼‰ã€‚
+     - å¦‚æžœæŸä¸ªæ–¹æ³•æ˜¯é™æ€çš„ï¼Œå®ƒçš„è¡Œä¸ºå°±ä¸å…·æœ‰å¤šæ€æ€§ï¼š
     ```java
     class StaticSuper {
     	public static String staticGet() {
@@ -33,13 +33,13 @@
     
     }
     ```
-         Êä³ö£º
+         è¾“å‡ºï¼š
 >Base staticGet()
 Derived dynamicGet()
 
- - **¹¹Ôìº¯Êý²¢²»¾ßÓÐ¶àÌ¬ÐÔ£¬ËüÃÇÊµ¼ÊÉÏÊÇstatic·½·¨£¬Ö»²»¹ý¸ÃstaticÉùÃ÷ÊÇÒþÊ½µÄ¡£**Òò´Ë£¬¹¹Ôìº¯Êý²»ÄÜ¹»±»override¡£
+ - **æž„é€ å‡½æ•°å¹¶ä¸å…·æœ‰å¤šæ€æ€§ï¼Œå®ƒä»¬å®žé™…ä¸Šæ˜¯staticæ–¹æ³•ï¼Œåªä¸è¿‡è¯¥staticå£°æ˜Žæ˜¯éšå¼çš„ã€‚**å› æ­¤ï¼Œæž„é€ å‡½æ•°ä¸èƒ½å¤Ÿè¢«overrideã€‚
 
- - **ÔÚ¸¸Àà¹¹Ôìº¯ÊýÄÚ²¿µ÷ÓÃ¾ßÓÐ¶àÌ¬ÐÐÎªµÄº¯Êý½«µ¼ÖÂÎÞ·¨Ô¤²âµÄ½á¹û**£¬ÒòÎª´ËÊ±×ÓÀà¶ÔÏó»¹Ã»³õÊ¼»¯£¬´ËÊ±µ÷ÓÃ×ÓÀà·½·¨²»»áµÃµ½ÎÒÃÇÏëÒªµÄ½á¹û¡£
+ - **åœ¨çˆ¶ç±»æž„é€ å‡½æ•°å†…éƒ¨è°ƒç”¨å…·æœ‰å¤šæ€è¡Œä¸ºçš„å‡½æ•°å°†å¯¼è‡´æ— æ³•é¢„æµ‹çš„ç»“æžœ**ï¼Œå› ä¸ºæ­¤æ—¶å­ç±»å¯¹è±¡è¿˜æ²¡åˆå§‹åŒ–ï¼Œæ­¤æ—¶è°ƒç”¨å­ç±»æ–¹æ³•ä¸ä¼šå¾—åˆ°æˆ‘ä»¬æƒ³è¦çš„ç»“æžœã€‚
     ```java
     class Glyph {
     	void draw() {
@@ -74,21 +74,21 @@ Derived dynamicGet()
     
     }
     ```
-Êä³ö£º
+è¾“å‡ºï¼š
 >Glyph() before draw()
 RoundGlyph.draw(). radius = 0
 Glyph() after draw()
 RoundGlyph.RoundGlyph(). radius = 5
 
- ÎªÊ²Ã´»áÕâÑùÊä³ö£¿Õâ¾ÍÒªÃ÷È·ÕÆÎÕ**JavaÖÐ¹¹Ôìº¯ÊýµÄµ÷ÓÃË³Ðò**£º
->£¨1£©ÔÚÆäËûÈÎºÎÊÂÎï·¢ÉúÖ®Ç°£¬½«·ÖÅä¸ø¶ÔÏóµÄ´æ´¢¿Õ¼ä³õÊ¼»¯³É¶þ½øÖÆ0£»
-£¨2£©µ÷ÓÃ»ùÀà¹¹Ôìº¯Êý¡£´Ó¸ù¿ªÊ¼µÝ¹éÏÂÈ¥£¬ÒòÎª¶àÌ¬ÐÔ´ËÊ±µ÷ÓÃ×ÓÀà¸²¸ÇºóµÄdraw()·½·¨£¨ÒªÔÚµ÷ÓÃRoundGlyph¹¹Ôìº¯ÊýÖ®Ç°µ÷ÓÃ£©£¬ÓÉÓÚ²½Öè1µÄÔµ¹Ê£¬ÎÒÃÇ´ËÊ±»á·¢ÏÖradiusµÄÖµÎª0£»
-£¨3£©°´ÉùÃ÷Ë³Ðòµ÷ÓÃ³ÉÔ±µÄ³õÊ¼»¯·½·¨£»
-£¨4£©×îºóµ÷ÓÃ×ÓÀàµÄ¹¹Ôìº¯Êý¡£
+ ä¸ºä»€ä¹ˆä¼šè¿™æ ·è¾“å‡ºï¼Ÿè¿™å°±è¦æ˜Žç¡®æŽŒæ¡**Javaä¸­æž„é€ å‡½æ•°çš„è°ƒç”¨é¡ºåº**ï¼š
+>ï¼ˆ1ï¼‰åœ¨å…¶ä»–ä»»ä½•äº‹ç‰©å‘ç”Ÿä¹‹å‰ï¼Œå°†åˆ†é…ç»™å¯¹è±¡çš„å­˜å‚¨ç©ºé—´åˆå§‹åŒ–æˆäºŒè¿›åˆ¶0ï¼›
+ï¼ˆ2ï¼‰è°ƒç”¨åŸºç±»æž„é€ å‡½æ•°ã€‚ä»Žæ ¹å¼€å§‹é€’å½’ä¸‹åŽ»ï¼Œå› ä¸ºå¤šæ€æ€§æ­¤æ—¶è°ƒç”¨å­ç±»è¦†ç›–åŽçš„draw()æ–¹æ³•ï¼ˆè¦åœ¨è°ƒç”¨RoundGlyphæž„é€ å‡½æ•°ä¹‹å‰è°ƒç”¨ï¼‰ï¼Œç”±äºŽæ­¥éª¤1çš„ç¼˜æ•…ï¼Œæˆ‘ä»¬æ­¤æ—¶ä¼šå‘çŽ°radiusçš„å€¼ä¸º0ï¼›
+ï¼ˆ3ï¼‰æŒ‰å£°æ˜Žé¡ºåºè°ƒç”¨æˆå‘˜çš„åˆå§‹åŒ–æ–¹æ³•ï¼›
+ï¼ˆ4ï¼‰æœ€åŽè°ƒç”¨å­ç±»çš„æž„é€ å‡½æ•°ã€‚
 
- - Ö»ÓÐ·Çprivate·½·¨²Å¿ÉÒÔ±»¸²¸Ç£¬µ«ÊÇ»¹ÐèÒªÃÜÇÐ×¢Òâ¸²¸Çprivate·½·¨µÄÏÖÏó£¬ÕâÊ±ËäÈ»±àÒëÆ÷²»»á±¨´í£¬µ«ÊÇÒ²²»»á°´ÕÕÎÒÃÇËùÆÚÍûµÄÀ´Ö´ÐÐ£¬¼´¸²¸Çprivate·½·¨¶Ô×ÓÀàÀ´ËµÊÇÒ»¸öÐÂµÄ·½·¨¶ø·ÇÖØÔØ·½·¨¡£Òò´Ë£¬**ÔÚ×ÓÀàÖÐ£¬ÐÂ·½·¨Ãû×îºÃ²»ÒªÓë»ùÀàµÄprivate·½·¨²ÉÈ¡Í¬Ò»Ãû×Ö£¨ËäÈ»Ã»¹ØÏµ£¬µ«ÈÝÒ×Îó½â£¬ÒÔÎªÄÜ¹»¸²¸Ç»ùÀàµÄprivate·½·¨£©**¡£
+ - åªæœ‰éžprivateæ–¹æ³•æ‰å¯ä»¥è¢«è¦†ç›–ï¼Œä½†æ˜¯è¿˜éœ€è¦å¯†åˆ‡æ³¨æ„è¦†ç›–privateæ–¹æ³•çš„çŽ°è±¡ï¼Œè¿™æ—¶è™½ç„¶ç¼–è¯‘å™¨ä¸ä¼šæŠ¥é”™ï¼Œä½†æ˜¯ä¹Ÿä¸ä¼šæŒ‰ç…§æˆ‘ä»¬æ‰€æœŸæœ›çš„æ¥æ‰§è¡Œï¼Œå³è¦†ç›–privateæ–¹æ³•å¯¹å­ç±»æ¥è¯´æ˜¯ä¸€ä¸ªæ–°çš„æ–¹æ³•è€Œéžé‡è½½æ–¹æ³•ã€‚å› æ­¤ï¼Œ**åœ¨å­ç±»ä¸­ï¼Œæ–°æ–¹æ³•åæœ€å¥½ä¸è¦ä¸ŽåŸºç±»çš„privateæ–¹æ³•é‡‡å–åŒä¸€åå­—ï¼ˆè™½ç„¶æ²¡å…³ç³»ï¼Œä½†å®¹æ˜“è¯¯è§£ï¼Œä»¥ä¸ºèƒ½å¤Ÿè¦†ç›–åŸºç±»çš„privateæ–¹æ³•ï¼‰**ã€‚
 
- - JavaÀàÖÐÊôÐÔÓòµÄ·ÃÎÊ²Ù×÷¶¼ÓÉ±àÒëÆ÷½âÎö£¬Òò´Ë²»ÊÇ¶àÌ¬µÄ¡£**¸¸ÀàºÍ×ÓÀàµÄÍ¬ÃûÊôÐÔ¶¼»á·ÖÅä²»Í¬µÄ´æ´¢¿Õ¼ä**£¬ÈçÏÂ£º
+ - Javaç±»ä¸­å±žæ€§åŸŸçš„è®¿é—®æ“ä½œéƒ½ç”±ç¼–è¯‘å™¨è§£æžï¼Œå› æ­¤ä¸æ˜¯å¤šæ€çš„ã€‚**çˆ¶ç±»å’Œå­ç±»çš„åŒåå±žæ€§éƒ½ä¼šåˆ†é…ä¸åŒçš„å­˜å‚¨ç©ºé—´**ï¼Œå¦‚ä¸‹ï¼š
     ```java
     // Direct field access is determined at compile time.
     class Super {
@@ -122,36 +122,36 @@ RoundGlyph.RoundGlyph(). radius = 5
     
     }
     ```
-     Êä³ö£º
+     è¾“å‡ºï¼š
 >sup.filed = 0, sup.getField() = 1
 sub.filed = 1, sub.getField() = 1, sub.getSuperField() = 0
 
-     Sub×ÓÀàÊµ¼ÊÉÏ**°üº¬ÁËÁ½¸ö³ÆÎªfieldµÄÓò**£¬È»¶øÔÚÒýÓÃSubÖÐµÄfieldÊ±Ëù²úÉúµÄÄ¬ÈÏÓò²¢·ÇSuper°æ±¾µÄfieldÓò£¬Òò´ËÎªÁËµÃµ½Super.field£¬±ØÐë**ÏÔÊ½µØÖ¸Ã÷**super.field¡£
+     Subå­ç±»å®žé™…ä¸Š**åŒ…å«äº†ä¸¤ä¸ªç§°ä¸ºfieldçš„åŸŸ**ï¼Œç„¶è€Œåœ¨å¼•ç”¨Subä¸­çš„fieldæ—¶æ‰€äº§ç”Ÿçš„é»˜è®¤åŸŸå¹¶éžSuperç‰ˆæœ¬çš„fieldåŸŸï¼Œå› æ­¤ä¸ºäº†å¾—åˆ°Super.fieldï¼Œå¿…é¡»**æ˜¾å¼åœ°æŒ‡æ˜Ž**super.fieldã€‚
 
-### 2. is-a¹ØÏµºÍis-like-a¹ØÏµ
-- is-a¹ØÏµÊôÓÚ´¿¼Ì³Ð£¬¼´Ö»ÓÐÔÚ»ùÀàÖÐÒÑ¾­½¨Á¢µÄ·½·¨²Å¿ÉÒÔÔÚ×ÓÀàÖÐ±»¸²¸Ç£¬ÈçÏÂÍ¼ËùÊ¾£º
+### 2. is-aå…³ç³»å’Œis-like-aå…³ç³»
+- is-aå…³ç³»å±žäºŽçº¯ç»§æ‰¿ï¼Œå³åªæœ‰åœ¨åŸºç±»ä¸­å·²ç»å»ºç«‹çš„æ–¹æ³•æ‰å¯ä»¥åœ¨å­ç±»ä¸­è¢«è¦†ç›–ï¼Œå¦‚ä¸‹å›¾æ‰€ç¤ºï¼š
 ![is-a.png](http://upload-images.jianshu.io/upload_images/46178-5fbaec520e33a8d3.png)
-»ùÀàºÍ×ÓÀàÓÐ×ÅÍêÈ«ÏàÍ¬µÄ½Ó¿Ú£¬**ÕâÑùÏòÉÏ×ªÐÍÊ±ÓÀÔ¶²»ÐèÒªÖªµÀÕýÔÚ´¦ÀíµÄ¶ÔÏóµÄÈ·ÇÐÀàÐÍ£¬ÕâÍ¨¹ý¶àÌ¬À´ÊµÏÖ¡£**
+åŸºç±»å’Œå­ç±»æœ‰ç€å®Œå…¨ç›¸åŒçš„æŽ¥å£ï¼Œ**è¿™æ ·å‘ä¸Šè½¬åž‹æ—¶æ°¸è¿œä¸éœ€è¦çŸ¥é“æ­£åœ¨å¤„ç†çš„å¯¹è±¡çš„ç¡®åˆ‡ç±»åž‹ï¼Œè¿™é€šè¿‡å¤šæ€æ¥å®žçŽ°ã€‚**
 
-- is-like-a¹ØÏµ£º×ÓÀàÀ©Õ¹ÁË»ùÀà½Ó¿Ú¡£ËüÓÐ×ÅÏàÍ¬µÄ»ù±¾½Ó¿Ú£¬**µ«ÊÇËû»¹¾ßÓÐÓÉ¶îÍâ·½·¨ÊµÏÖµÄÆäËûÌØÐÔ¡£**
+- is-like-aå…³ç³»ï¼šå­ç±»æ‰©å±•äº†åŸºç±»æŽ¥å£ã€‚å®ƒæœ‰ç€ç›¸åŒçš„åŸºæœ¬æŽ¥å£ï¼Œ**ä½†æ˜¯ä»–è¿˜å…·æœ‰ç”±é¢å¤–æ–¹æ³•å®žçŽ°çš„å…¶ä»–ç‰¹æ€§ã€‚**
 ![has-a.png](http://upload-images.jianshu.io/upload_images/46178-335a5bca78e970b4.png)
-È±µã¾ÍÊÇ×ÓÀàÖÐ½Ó¿ÚµÄÀ©Õ¹²¿·Ö²»ÄÜ±»»ùÀà·ÃÎÊ£¬Òò´Ë**Ò»µ©ÏòÉÏ×ªÐÍ£¬¾Í²»ÄÜµ÷ÓÃÄÇÐ©ÐÂ·½·¨¡£**
+ç¼ºç‚¹å°±æ˜¯å­ç±»ä¸­æŽ¥å£çš„æ‰©å±•éƒ¨åˆ†ä¸èƒ½è¢«åŸºç±»è®¿é—®ï¼Œå› æ­¤**ä¸€æ—¦å‘ä¸Šè½¬åž‹ï¼Œå°±ä¸èƒ½è°ƒç”¨é‚£äº›æ–°æ–¹æ³•ã€‚**
 
-### 3. ÔËÐÐÊ±ÀàÐÍÐÅÏ¢£¨RTTI + ·´Éä£©
- - ¸ÅÄî
-RTTI£ºÔËÐÐÊ±ÀàÐÍÐÅÏ¢Ê¹µÃÄã¿ÉÒÔÔÚ³ÌÐòÔËÐÐÊ±·¢ÏÖºÍÊ¹ÓÃÀàÐÍÐÅÏ¢¡£
- - Ê¹ÓÃ·½Ê½
-JavaÊÇÈçºÎÈÃÎÒÃÇÔÚÔËÐÐÊ±Ê¶±ð¶ÔÏóºÍÀàµÄÐÅÏ¢µÄ£¬Ö÷ÒªÓÐÁ½ÖÖ·½Ê½£¨»¹ÓÐ¸¨ÖúµÄµÚÈýÖÖ·½Ê½£¬¼ûÏÂÃèÊö£©£º
-     - Ò»ÖÖÊÇ¡°´«Í³µÄ¡±RTTI£¬Ëü¼Ù¶¨ÎÒÃÇÔÚ±àÒëÊ±ÒÑ¾­ÖªµÀÁËËùÓÐµÄÀàÐÍ£¬±ÈÈç`Shape s = (Shape)s1£»`
-     - ÁíÒ»ÖÖÊÇ**¡°·´Éä¡±»úÖÆ**£¬ËüÔËÐÐÎÒÃÇÔÚÔËÐÐÊ±·¢ÏÖºÍÊ¹ÓÃÀàµÄÐÅÏ¢£¬¼´Ê¹ÓÃ`Class.forName()`¡£
-     - ÆäÊµ»¹ÓÐµÚÈýÖÖÐÎÊ½£¬¾ÍÊÇ¹Ø¼ü×Ö`instanceof`£¬Ëü·µ»ØÒ»¸öboolÖµ£¬Ëü±£³ÖÁËÀàÐÍµÄ¸ÅÄî£¬ËüÖ¸µÄÊÇ**¡°ÄãÊÇÕâ¸öÀàÂð£¿»òÕßÄãÊÇÕâ¸öÀàµÄÅÉÉúÀàÂð£¿¡±**¡£¶øÈç¹ûÓÃ==»òequals±È½ÏÊµ¼ÊµÄClass¶ÔÏó£¬¾ÍÃ»ÓÐ¿¼ÂÇ¼Ì³Ð¡ªËü»òÕßÊÇÕâ¸öÈ·ÇÐµÄÀàÐÍ£¬»òÕß²»ÊÇ¡£
+### 3. è¿è¡Œæ—¶ç±»åž‹ä¿¡æ¯ï¼ˆRTTI + åå°„ï¼‰
+ - æ¦‚å¿µ
+RTTIï¼šè¿è¡Œæ—¶ç±»åž‹ä¿¡æ¯ä½¿å¾—ä½ å¯ä»¥åœ¨ç¨‹åºè¿è¡Œæ—¶å‘çŽ°å’Œä½¿ç”¨ç±»åž‹ä¿¡æ¯ã€‚
+ - ä½¿ç”¨æ–¹å¼
+Javaæ˜¯å¦‚ä½•è®©æˆ‘ä»¬åœ¨è¿è¡Œæ—¶è¯†åˆ«å¯¹è±¡å’Œç±»çš„ä¿¡æ¯çš„ï¼Œä¸»è¦æœ‰ä¸¤ç§æ–¹å¼ï¼ˆè¿˜æœ‰è¾…åŠ©çš„ç¬¬ä¸‰ç§æ–¹å¼ï¼Œè§ä¸‹æè¿°ï¼‰ï¼š
+     - ä¸€ç§æ˜¯â€œä¼ ç»Ÿçš„â€RTTIï¼Œå®ƒå‡å®šæˆ‘ä»¬åœ¨ç¼–è¯‘æ—¶å·²ç»çŸ¥é“äº†æ‰€æœ‰çš„ç±»åž‹ï¼Œæ¯”å¦‚`Shape s = (Shape)s1ï¼›`
+     - å¦ä¸€ç§æ˜¯**â€œåå°„â€æœºåˆ¶**ï¼Œå®ƒè¿è¡Œæˆ‘ä»¬åœ¨è¿è¡Œæ—¶å‘çŽ°å’Œä½¿ç”¨ç±»çš„ä¿¡æ¯ï¼Œå³ä½¿ç”¨`Class.forName()`ã€‚
+     - å…¶å®žè¿˜æœ‰ç¬¬ä¸‰ç§å½¢å¼ï¼Œå°±æ˜¯å…³é”®å­—`instanceof`ï¼Œå®ƒè¿”å›žä¸€ä¸ªboolå€¼ï¼Œå®ƒä¿æŒäº†ç±»åž‹çš„æ¦‚å¿µï¼Œå®ƒæŒ‡çš„æ˜¯**â€œä½ æ˜¯è¿™ä¸ªç±»å—ï¼Ÿæˆ–è€…ä½ æ˜¯è¿™ä¸ªç±»çš„æ´¾ç”Ÿç±»å—ï¼Ÿâ€**ã€‚è€Œå¦‚æžœç”¨==æˆ–equalsæ¯”è¾ƒå®žé™…çš„Classå¯¹è±¡ï¼Œå°±æ²¡æœ‰è€ƒè™‘ç»§æ‰¿â€”å®ƒæˆ–è€…æ˜¯è¿™ä¸ªç¡®åˆ‡çš„ç±»åž‹ï¼Œæˆ–è€…ä¸æ˜¯ã€‚
 
- - ¹¤×÷Ô­Àí
-ÒªÀí½âRTTIÔÚJavaÖÐµÄ¹¤×÷Ô­Àí£¬**Ê×ÏÈ±ØÐëÖªµÀÀàÐÍÐÅÏ¢ÔÚÔËÐÐÊ±ÊÇÈçºÎ±íÊ¾µÄ**£¬ÕâÏî¹¤×÷ÊÇÓÉ³ÆÎª`Class¶ÔÏó`µÄÌØÊâ¶ÔÏóÍê³ÉµÄ£¬Ëü°üº¬ÁËÓëÀàÓÐ¹ØµÄÐÅÏ¢¡£JavaËÍClass¶ÔÏóÀ´Ö´ÐÐÆäRTTI£¬**Ê¹ÓÃÀà¼ÓÔØÆ÷µÄ×ÓÏµÍ³ÊµÏÖ**¡£
+ - å·¥ä½œåŽŸç†
+è¦ç†è§£RTTIåœ¨Javaä¸­çš„å·¥ä½œåŽŸç†ï¼Œ**é¦–å…ˆå¿…é¡»çŸ¥é“ç±»åž‹ä¿¡æ¯åœ¨è¿è¡Œæ—¶æ˜¯å¦‚ä½•è¡¨ç¤ºçš„**ï¼Œè¿™é¡¹å·¥ä½œæ˜¯ç”±ç§°ä¸º`Classå¯¹è±¡`çš„ç‰¹æ®Šå¯¹è±¡å®Œæˆçš„ï¼Œå®ƒåŒ…å«äº†ä¸Žç±»æœ‰å…³çš„ä¿¡æ¯ã€‚Javaé€Classå¯¹è±¡æ¥æ‰§è¡Œå…¶RTTIï¼Œ**ä½¿ç”¨ç±»åŠ è½½å™¨çš„å­ç³»ç»Ÿå®žçŽ°**ã€‚
 
- ÎÞÂÛºÎÊ±£¬Ö»ÒªÄãÏëÔÚÔËÐÐÊ±Ê¹ÓÃÀàÐÍÐÅÏ¢£¬¾Í**±ØÐëÊ×ÏÈ»ñµÃ¶ÔÇ¡µ±µÄClass¶ÔÏóµÄÒýÓÃ**£¬»ñÈ¡·½Ê½ÓÐÈýÖÖ£º
- £¨1£©Èç¹ûÄãÃ»ÓÐ³ÖÓÐ¸ÃÀàÐÍµÄ¶ÔÏó£¬Ôò`Class.forName()`¾ÍÊÇÊµÏÖ´Ë¹¦ÄÜµÄ±ã½ÝÍ¾£¬ÒòÎªËü²»ÐèÒª¶ÔÏóÐÅÏ¢£»
- £¨2£©Èç¹ûÄãÒÑ¾­ÓµÓÐÁËÒ»¸ö¸ÐÐËÈ¤µÄÀàÐÍµÄ¶ÔÏó£¬ÄÇ¾Í¿ÉÒÔÍ¨¹ýµ÷ÓÃ`getClass()`·½·¨À´»ñÈ¡ClassÒýÓÃÁË£¬Ëü½«·µ»Ø±íÊ¾¸Ã¶ÔÏóµÄÊµ¼ÊÀàÐÍµÄClassÒýÓÃ¡£Class°üº¬ºÜÓÐÓÐÓÃµÄ·½·¨£¬±ÈÈç£º
+ æ— è®ºä½•æ—¶ï¼Œåªè¦ä½ æƒ³åœ¨è¿è¡Œæ—¶ä½¿ç”¨ç±»åž‹ä¿¡æ¯ï¼Œå°±**å¿…é¡»é¦–å…ˆèŽ·å¾—å¯¹æ°å½“çš„Classå¯¹è±¡çš„å¼•ç”¨**ï¼ŒèŽ·å–æ–¹å¼æœ‰ä¸‰ç§ï¼š
+ ï¼ˆ1ï¼‰å¦‚æžœä½ æ²¡æœ‰æŒæœ‰è¯¥ç±»åž‹çš„å¯¹è±¡ï¼Œåˆ™`Class.forName()`å°±æ˜¯å®žçŽ°æ­¤åŠŸèƒ½çš„ä¾¿æ·é€”ï¼Œå› ä¸ºå®ƒä¸éœ€è¦å¯¹è±¡ä¿¡æ¯ï¼›
+ ï¼ˆ2ï¼‰å¦‚æžœä½ å·²ç»æ‹¥æœ‰äº†ä¸€ä¸ªæ„Ÿå…´è¶£çš„ç±»åž‹çš„å¯¹è±¡ï¼Œé‚£å°±å¯ä»¥é€šè¿‡è°ƒç”¨`getClass()`æ–¹æ³•æ¥èŽ·å–Classå¼•ç”¨äº†ï¼Œå®ƒå°†è¿”å›žè¡¨ç¤ºè¯¥å¯¹è±¡çš„å®žé™…ç±»åž‹çš„Classå¼•ç”¨ã€‚ClassåŒ…å«å¾ˆæœ‰æœ‰ç”¨çš„æ–¹æ³•ï¼Œæ¯”å¦‚ï¼š
     ```java
     package rtti;
     interface HasBatteries{}
@@ -182,7 +182,7 @@ JavaÊÇÈçºÎÈÃÎÒÃÇÔÚÔËÐÐÊ±Ê¶±ð¶ÔÏóºÍÀàµÄÐÅÏ¢µÄ£¬Ö÷ÒªÓÐÁ½ÖÖ·½Ê½£¨»¹ÓÐ¸¨ÖúµÄµÚÈýÖÖ·½
     	public static void main(String[] args) {
     		Class c = null;
     		try {
-    			c = Class.forName("rtti.FancyToy"); // ±ØÐëÊÇÈ«ÏÞ¶¨Ãû£¨°üÃû+ÀàÃû£©
+    			c = Class.forName("rtti.FancyToy"); // å¿…é¡»æ˜¯å…¨é™å®šåï¼ˆåŒ…å+ç±»åï¼‰
     		} catch(ClassNotFoundException e) {
     			System.out.println("Can't find FancyToy");
     			System.exit(1);
@@ -210,7 +210,7 @@ JavaÊÇÈçºÎÈÃÎÒÃÇÔÚÔËÐÐÊ±Ê¶±ð¶ÔÏóºÍÀàµÄÐÅÏ¢µÄ£¬Ö÷ÒªÓÐÁ½ÖÖ·½Ê½£¨»¹ÓÐ¸¨ÖúµÄµÚÈýÖÖ·½
     
     }
     ```
-Êä³ö£º
+è¾“å‡ºï¼š
 >Class name: rtti.FancyToy, is interface? [false]
 Simple name: FancyToy
 Canonical name: rtti.FancyToy
@@ -227,17 +227,17 @@ Class name: rtti.Toy, is interface? [false]
 Simple name: Toy
 Canonical name: rtti.Toy
 
- £¨3£©Java»¹Ìá¹©ÁËÁíÒ»ÖÖ·½·¨À´Éú³É¶ÔClass¶ÔÏóµÄÒýÓÃ£¬¼´Ê¹ÓÃ**Àà×ÖÃæ³£Á¿**¡£±ÈÈçÉÏÃæµÄ¾ÍÏñÕâÑù£º`FancyToy.class;`À´ÒýÓÃ¡£
-ÕâÑù×ö²»½ö¸ü¼òµ¥£¬¶øÇÒ¸ü°²È«£¬ÒòÎªËü**ÔÚ±àÒëÊ±¾Í»áÊÜµ½¼ì²é£¨Òò´Ë²»ÐèÒªÖÃÓÚtryÓï¾ä¿éÖÐ£©**£¬²¢ÇÒËü¸ù³ýÁË¶ÔforName·½·¨µÄÒýÓÃ£¬ËùÒÔÒ²¸ü¸ßÐ§¡£Àà×ÖÃæ³£Á¿²»½ö¿ÉÒÔÓ¦ÓÃÓÚÆÕÍ¨µÄÀà£¬Ò²¿ÉÒÔÓ¦ÓÃÓÚ½Ó¿Ú¡¢Êý×éÒÔ¼°»ù±¾Êý¾ÝÀàÐÍ¡£
+ ï¼ˆ3ï¼‰Javaè¿˜æä¾›äº†å¦ä¸€ç§æ–¹æ³•æ¥ç”Ÿæˆå¯¹Classå¯¹è±¡çš„å¼•ç”¨ï¼Œå³ä½¿ç”¨**ç±»å­—é¢å¸¸é‡**ã€‚æ¯”å¦‚ä¸Šé¢çš„å°±åƒè¿™æ ·ï¼š`FancyToy.class;`æ¥å¼•ç”¨ã€‚
+è¿™æ ·åšä¸ä»…æ›´ç®€å•ï¼Œè€Œä¸”æ›´å®‰å…¨ï¼Œå› ä¸ºå®ƒ**åœ¨ç¼–è¯‘æ—¶å°±ä¼šå—åˆ°æ£€æŸ¥ï¼ˆå› æ­¤ä¸éœ€è¦ç½®äºŽtryè¯­å¥å—ä¸­ï¼‰**ï¼Œå¹¶ä¸”å®ƒæ ¹é™¤äº†å¯¹forNameæ–¹æ³•çš„å¼•ç”¨ï¼Œæ‰€ä»¥ä¹Ÿæ›´é«˜æ•ˆã€‚ç±»å­—é¢å¸¸é‡ä¸ä»…å¯ä»¥åº”ç”¨äºŽæ™®é€šçš„ç±»ï¼Œä¹Ÿå¯ä»¥åº”ç”¨äºŽæŽ¥å£ã€æ•°ç»„ä»¥åŠåŸºæœ¬æ•°æ®ç±»åž‹ã€‚
  ---
- **×¢Òâ**£ºµ±Ê¹ÓÃ¡°.class¡±À´´´½¨¶ÔClass¶ÔÏóµÄÒýÓÃÊ±£¬**²»»á×Ô¶¯µØ³õÊ¼»¯¸ÃClass¶ÔÏó£¬³õÊ¼»¯±»ÑÓ³Ùµ½ÁË¶Ô¾²Ì¬·½·¨£¨¹¹ÔìÆ÷ÒþÊ½µÄÊÇ¾²Ì¬µÄ£©»òÕß·Çfinal¾²Ì¬Óò£¨×¢Òâfinal¾²Ì¬Óò²»»á´¥·¢³õÊ¼»¯²Ù×÷£©½øÐÐÊ×´ÎÒýÓÃÊ±²ÅÖ´ÐÐ£º**¡£¶øÊ¹ÓÃClass.forNameÊ±»á×Ô¶¯µÄ³õÊ¼»¯¡£
+ **æ³¨æ„**ï¼šå½“ä½¿ç”¨â€œ.classâ€æ¥åˆ›å»ºå¯¹Classå¯¹è±¡çš„å¼•ç”¨æ—¶ï¼Œ**ä¸ä¼šè‡ªåŠ¨åœ°åˆå§‹åŒ–è¯¥Classå¯¹è±¡ï¼Œåˆå§‹åŒ–è¢«å»¶è¿Ÿåˆ°äº†å¯¹é™æ€æ–¹æ³•ï¼ˆæž„é€ å™¨éšå¼çš„æ˜¯é™æ€çš„ï¼‰æˆ–è€…éžfinalé™æ€åŸŸï¼ˆæ³¨æ„finalé™æ€åŸŸä¸ä¼šè§¦å‘åˆå§‹åŒ–æ“ä½œï¼‰è¿›è¡Œé¦–æ¬¡å¼•ç”¨æ—¶æ‰æ‰§è¡Œï¼š**ã€‚è€Œä½¿ç”¨Class.forNameæ—¶ä¼šè‡ªåŠ¨çš„åˆå§‹åŒ–ã€‚
 
- ÎªÁËÊ¹ÓÃÀà¶ø×öµÄ×¼±¸¹¤×÷Êµ¼Ê°üº¬Èý¸ö²½Öè£º
-- ¼ÓÔØ£ºÓÉÀà¼ÓÔØÆ÷Ö´ÐÐ¡£²éÕÒ×Ö½ÚÂë£¬²¢´ÓÕâÐ©×Ö½ÚÂëÖÐ´´½¨Ò»¸öClass¶ÔÏó
-- Á´½Ó£ºÑéÖ¤ÀàÖÐµÄ×Ö½ÚÂë£¬Îª¾²Ì¬Óò·ÖÅä´æ´¢¿Õ¼ä£¬²¢ÇÒÈç¹û±ØÐèµÄ»°£¬½«½âÎöÕâ¸öÀà´´½¨µÄ¶ÔÆäËûÀàµÄËùÓÐÒýÓÃ¡£
-- ³õÊ¼»¯£ºÈç¹û¸ÃÀà¾ßÓÐ³¬Àà£¬Ôò¶ÔÆä³õÊ¼»¯£¬Ö´ÐÐ¾²Ì¬³õÊ¼»¯Æ÷ºÍ¾²Ì¬³õÊ¼»¯¿é¡£
+ ä¸ºäº†ä½¿ç”¨ç±»è€Œåšçš„å‡†å¤‡å·¥ä½œå®žé™…åŒ…å«ä¸‰ä¸ªæ­¥éª¤ï¼š
+- åŠ è½½ï¼šç”±ç±»åŠ è½½å™¨æ‰§è¡Œã€‚æŸ¥æ‰¾å­—èŠ‚ç ï¼Œå¹¶ä»Žè¿™äº›å­—èŠ‚ç ä¸­åˆ›å»ºä¸€ä¸ªClasså¯¹è±¡
+- é“¾æŽ¥ï¼šéªŒè¯ç±»ä¸­çš„å­—èŠ‚ç ï¼Œä¸ºé™æ€åŸŸåˆ†é…å­˜å‚¨ç©ºé—´ï¼Œå¹¶ä¸”å¦‚æžœå¿…éœ€çš„è¯ï¼Œå°†è§£æžè¿™ä¸ªç±»åˆ›å»ºçš„å¯¹å…¶ä»–ç±»çš„æ‰€æœ‰å¼•ç”¨ã€‚
+- åˆå§‹åŒ–ï¼šå¦‚æžœè¯¥ç±»å…·æœ‰è¶…ç±»ï¼Œåˆ™å¯¹å…¶åˆå§‹åŒ–ï¼Œæ‰§è¡Œé™æ€åˆå§‹åŒ–å™¨å’Œé™æ€åˆå§‹åŒ–å—ã€‚
 
- ÕâÒ»µã·Ç³£ÖØÒª£¬ÏÂÃæÍ¨¹ýÒ»¸öÊµÀýÀ´ËµÃ÷ÕâÁ½ÕßµÄÇø±ð£º
+ è¿™ä¸€ç‚¹éžå¸¸é‡è¦ï¼Œä¸‹é¢é€šè¿‡ä¸€ä¸ªå®žä¾‹æ¥è¯´æ˜Žè¿™ä¸¤è€…çš„åŒºåˆ«ï¼š
 ```java
 package rtti;
 import java.util.Random;
@@ -290,7 +290,7 @@ public class ClassInitialization {
     	}
 }
  ```
- Êä³ö£º
+ è¾“å‡ºï¼š
 >After creating Initable ref
 47
 Initializing Initable
@@ -302,17 +302,17 @@ After creating Initable3 ref
 74
  ---
 
- - RTTIµÄÏÞÖÆ£¿ÈçºÎÍ»ÆÆ£¿ ¡ª ·´Éä»úÖÆ
-Èç¹û²»ÖªµÀÄ³¸ö¶ÔÏóµÄÈ·ÇÐÀàÐÍ£¬RTTI¿ÉÒÔ¸æËßÄã£¬µ«ÊÇÓÐÒ»¸ö**ÏÞÖÆ£ºÕâ¸öÀàÐÍÔÚ±àÒëÊ±±ØÐëÒÑÖª£¬ÕâÑù²ÅÄÜÊ¹ÓÃRTTIÊ¶±ðËü£¬Ò²¾ÍÊÇÔÚ±àÒëÊ±£¬±àÒëÆ÷±ØÐëÖªµÀËùÓÐÒªÍ¨¹ýRTTIÀ´´¦ÀíµÄÀà¡£**
+ - RTTIçš„é™åˆ¶ï¼Ÿå¦‚ä½•çªç ´ï¼Ÿ â€” åå°„æœºåˆ¶
+å¦‚æžœä¸çŸ¥é“æŸä¸ªå¯¹è±¡çš„ç¡®åˆ‡ç±»åž‹ï¼ŒRTTIå¯ä»¥å‘Šè¯‰ä½ ï¼Œä½†æ˜¯æœ‰ä¸€ä¸ª**é™åˆ¶ï¼šè¿™ä¸ªç±»åž‹åœ¨ç¼–è¯‘æ—¶å¿…é¡»å·²çŸ¥ï¼Œè¿™æ ·æ‰èƒ½ä½¿ç”¨RTTIè¯†åˆ«å®ƒï¼Œä¹Ÿå°±æ˜¯åœ¨ç¼–è¯‘æ—¶ï¼Œç¼–è¯‘å™¨å¿…é¡»çŸ¥é“æ‰€æœ‰è¦é€šè¿‡RTTIæ¥å¤„ç†çš„ç±»ã€‚**
 
-   ¿ÉÒÔÍ»ÆÆÕâ¸öÏÞÖÆÂð£¿ÊÇµÄ£¬Í»ÆÆËüµÄ¾ÍÊÇ**·´Éä»úÖÆ**¡£
-  `Class`ÀàÓë`java.lang.reflect`Àà¿âÒ»Æð¶Ô·´ÉäµÄ¸ÅÄî½øÐÐÁËÖ§³Ö£¬¸ÃÀà¿â°üº¬ÁË`Field`¡¢`Method`ÒÔ¼°`Constructor`Àà£¨Ã¿¸öÀà¶¼ÊµÏÖÁË`Member`½Ó¿Ú£©¡£ÕâÐ©ÀàÐÍµÄ¶ÔÏóÊÇÓÉJVMÔÚÔËÐÐÊ±´´½¨µÄ£¬ÓÃÒÔ±íÊ¾Î´ÖªÀàÀï¶ÔÓ¦µÄ³ÉÔ±¡£ÕâÑùÄã¾Í¿ÉÒÔÊ¹ÓÃ`Constructor`´´½¨ÐÂµÄ¶ÔÏó£¬ÓÃ`get()/set()`·½·¨¶ÁÈ¡ºÍÐÞ¸ÄÓë`Field`¶ÔÏó¹ØÁªµÄ×Ö¶Î£¬ÓÃ`invoke()`·½·¨µ÷ÓÃÓë`Method`¶ÔÏó¹ØÁªµÄ·½·¨¡£ÁíÍâ£¬»¹¿ÉÒÔµ÷ÓÃ`getFields()¡¢getMethods()ºÍgetConstructors()`µÈºÜ±ãÀûµÄ·½·¨£¬ÒÔ·µ»Ø±íÊ¾×Ö¶Î¡¢·½·¨ÒÔ¼°¹¹ÔìÆ÷µÄ¶ÔÏóµÄÊý×é¡£ÕâÑù£¬**ÄäÃû¶ÔÏóµÄÀàÐÅÏ¢¾ÍÄÜÔÚÔËÐÐÊ±±»ÍêÈ«È·¶¨ÏÂÀ´£¬¶øÔÚ±àÒëÊ±²»ÐèÒªÖªµÀÈÎºÎÊÂÇé¡£**
+   å¯ä»¥çªç ´è¿™ä¸ªé™åˆ¶å—ï¼Ÿæ˜¯çš„ï¼Œçªç ´å®ƒçš„å°±æ˜¯**åå°„æœºåˆ¶**ã€‚
+  `Class`ç±»ä¸Ž`java.lang.reflect`ç±»åº“ä¸€èµ·å¯¹åå°„çš„æ¦‚å¿µè¿›è¡Œäº†æ”¯æŒï¼Œè¯¥ç±»åº“åŒ…å«äº†`Field`ã€`Method`ä»¥åŠ`Constructor`ç±»ï¼ˆæ¯ä¸ªç±»éƒ½å®žçŽ°äº†`Member`æŽ¥å£ï¼‰ã€‚è¿™äº›ç±»åž‹çš„å¯¹è±¡æ˜¯ç”±JVMåœ¨è¿è¡Œæ—¶åˆ›å»ºçš„ï¼Œç”¨ä»¥è¡¨ç¤ºæœªçŸ¥ç±»é‡Œå¯¹åº”çš„æˆå‘˜ã€‚è¿™æ ·ä½ å°±å¯ä»¥ä½¿ç”¨`Constructor`åˆ›å»ºæ–°çš„å¯¹è±¡ï¼Œç”¨`get()/set()`æ–¹æ³•è¯»å–å’Œä¿®æ”¹ä¸Ž`Field`å¯¹è±¡å…³è”çš„å­—æ®µï¼Œç”¨`invoke()`æ–¹æ³•è°ƒç”¨ä¸Ž`Method`å¯¹è±¡å…³è”çš„æ–¹æ³•ã€‚å¦å¤–ï¼Œè¿˜å¯ä»¥è°ƒç”¨`getFields()ã€getMethods()å’ŒgetConstructors()`ç­‰å¾ˆä¾¿åˆ©çš„æ–¹æ³•ï¼Œä»¥è¿”å›žè¡¨ç¤ºå­—æ®µã€æ–¹æ³•ä»¥åŠæž„é€ å™¨çš„å¯¹è±¡çš„æ•°ç»„ã€‚è¿™æ ·ï¼Œ**åŒ¿åå¯¹è±¡çš„ç±»ä¿¡æ¯å°±èƒ½åœ¨è¿è¡Œæ—¶è¢«å®Œå…¨ç¡®å®šä¸‹æ¥ï¼Œè€Œåœ¨ç¼–è¯‘æ—¶ä¸éœ€è¦çŸ¥é“ä»»ä½•äº‹æƒ…ã€‚**
  
   ---
- ####·´ÉäÓëRTTIµÄÇø±ð
- µ±Í¨¹ý·´ÉäÓëÒ»¸öÎ´ÖªÀàÐÍµÄ¶ÔÏó´ò½»µÀÊ±£¬JVMÖ»ÊÇ¼òµ¥µØ¼ì²éÕâ¸ö¶ÔÏó£¬¿´ËüÊôÓÚÄÄ¸öÌØ¶¨µÄÀà£¨¾ÍÏñRTTIÄÇÑù£©£¬ÔÚÓÃËü×öÆäËûÊÂÇéÖ®Ç°±ØÐëÏÈ¼ÓÔØÄÇ¸öÀàµÄ`Class`¶ÔÏó£¬Òò´Ë£¬ÄÇ¸öÀàµÄ`.class`ÎÄ¼þ¶ÔÓÚJVMÀ´Ëµ±ØÐëÊÇ¿É»ñÈ¡µÄ£ºÒªÃ´ÔÚ±¾µØ»úÆ÷ÉÏ£¬ÒªÃ´¿ÉÒÔÍ¨¹ýÍøÂçÈ¡µÃ¡£ËùÒÔ**RTTIÓë·´ÉäÖ®¼äÕæÕýµÄÇø±ðÖ»ÔÚÓÚ£º¶ÔRTTIÀ´Ëµ£¬±àÒëÆ÷ÔÚ±àÒëÊ±´ò¿ªºÍ¼ì²é.classÎÄ¼þ£¨Ò²¾ÍÊÇ¿ÉÒÔÓÃÆÕÍ¨·½·¨µ÷ÓÃ¶ÔÏóµÄËùÓÐ·½·¨£©£»¶ø¶ÔÓÚ·´Éä»úÖÆÀ´Ëµ£¬.classÎÄ¼þÔÚ±àÒëÊ±ÊÇ²»¿É»ñÈ¡µÄ£¬ËùÒÔÊÇÔÚÔËÐÐÊ±´ò¿ªºÍ¼ì²é.classÎÄ¼þ¡£**
+ ####åå°„ä¸ŽRTTIçš„åŒºåˆ«
+ å½“é€šè¿‡åå°„ä¸Žä¸€ä¸ªæœªçŸ¥ç±»åž‹çš„å¯¹è±¡æ‰“äº¤é“æ—¶ï¼ŒJVMåªæ˜¯ç®€å•åœ°æ£€æŸ¥è¿™ä¸ªå¯¹è±¡ï¼Œçœ‹å®ƒå±žäºŽå“ªä¸ªç‰¹å®šçš„ç±»ï¼ˆå°±åƒRTTIé‚£æ ·ï¼‰ï¼Œåœ¨ç”¨å®ƒåšå…¶ä»–äº‹æƒ…ä¹‹å‰å¿…é¡»å…ˆåŠ è½½é‚£ä¸ªç±»çš„`Class`å¯¹è±¡ï¼Œå› æ­¤ï¼Œé‚£ä¸ªç±»çš„`.class`æ–‡ä»¶å¯¹äºŽJVMæ¥è¯´å¿…é¡»æ˜¯å¯èŽ·å–çš„ï¼šè¦ä¹ˆåœ¨æœ¬åœ°æœºå™¨ä¸Šï¼Œè¦ä¹ˆå¯ä»¥é€šè¿‡ç½‘ç»œå–å¾—ã€‚æ‰€ä»¥**RTTIä¸Žåå°„ä¹‹é—´çœŸæ­£çš„åŒºåˆ«åªåœ¨äºŽï¼šå¯¹RTTIæ¥è¯´ï¼Œç¼–è¯‘å™¨åœ¨ç¼–è¯‘æ—¶æ‰“å¼€å’Œæ£€æŸ¥.classæ–‡ä»¶ï¼ˆä¹Ÿå°±æ˜¯å¯ä»¥ç”¨æ™®é€šæ–¹æ³•è°ƒç”¨å¯¹è±¡çš„æ‰€æœ‰æ–¹æ³•ï¼‰ï¼›è€Œå¯¹äºŽåå°„æœºåˆ¶æ¥è¯´ï¼Œ.classæ–‡ä»¶åœ¨ç¼–è¯‘æ—¶æ˜¯ä¸å¯èŽ·å–çš„ï¼Œæ‰€ä»¥æ˜¯åœ¨è¿è¡Œæ—¶æ‰“å¼€å’Œæ£€æŸ¥.classæ–‡ä»¶ã€‚**
 
- ÏÂÃæµÄÀý×ÓÊÇÓÃ·´Éä»úÖÆ´òÓ¡³öÒ»¸öÀàµÄËùÓÐ·½·¨£¨°üÀ¨ÔÚ»ùÀàÖÐ¶¨ÒåµÄ·½·¨£©£º
+ ä¸‹é¢çš„ä¾‹å­æ˜¯ç”¨åå°„æœºåˆ¶æ‰“å°å‡ºä¸€ä¸ªç±»çš„æ‰€æœ‰æ–¹æ³•ï¼ˆåŒ…æ‹¬åœ¨åŸºç±»ä¸­å®šä¹‰çš„æ–¹æ³•ï¼‰ï¼š
 
     ```java
     package typeinfo;
@@ -373,7 +373,7 @@ After creating Initable3 ref
     }
     ```
 
- Êä³ö£º
+ è¾“å‡ºï¼š
 >public static void main(String[])
 public final native void wait(long) throws InterruptedException
 public final void wait() throws InterruptedException
@@ -386,9 +386,9 @@ public final native void notify()
 public final native void notifyAll()
 public ShowMethods()
 
-### 4. ´úÀíÄ£Ê½ÓëJavaÖÐµÄ¶¯Ì¬´úÀí
-- ´úÀíÄ£Ê½
-ÔÚÈÎºÎÊ±¿Ì£¬Ö»ÒªÄãÏëÒª½«¶îÍâµÄ²Ù×÷´Ó¡°Êµ¼Ê¡±¶ÔÏóÖÐ·ÖÀëµ½²»Í¬µÄµØ·½£¬ÌØ±ðÊÇµ±ÄãÏ£ÍûÄÜ¹»ºÜÈÝÒ×µØ×ö³öÐÞ¸Ä£¬´ÓÃ»ÓÐÊ¹ÓÃ¶îÍâ²Ù×÷×ªÎªÊ¹ÓÃÕâÐ©²Ù×÷£¬»òÕß·´¹ýÀ´Ê±£¬´úÀí¾ÍÏÔµÃºÜÓÐÓÃ£¨Éè¼ÆÄ£Ê½µÄ¹Ø¼üÊÇ·â×°ÐÞ¸Ä£©¡£ÀýÈç£¬Èç¹ûÄãÏ£Íû¸ú×Ù¶ÔÄ³¸öÀàÖÐ·½·¨µÄµ÷ÓÃ£¬»òÕßÏ£Íû¶ÈÁ¿ÕâÐ©µ÷ÓÃµÄ¿ªÏú£¬ÄÇÃ´ÄãÓ¦¸ÃÔõÑù×öÄØ£¿ÕâÐ©´úÂë**¿Ï¶¨ÊÇÄã²»Ï£Íû½«ÆäºÏ²¢µ½Ó¦ÓÃÖÐµÄ´úÂë£¬Òò´Ë´úÀíÊ¹µÃÄã¿ÉÒÔºÜÈÝÒ×µØÌí¼Ó»òÒÆ³ýËüÃÇ¡£**
+### 4. ä»£ç†æ¨¡å¼ä¸ŽJavaä¸­çš„åŠ¨æ€ä»£ç†
+- ä»£ç†æ¨¡å¼
+åœ¨ä»»ä½•æ—¶åˆ»ï¼Œåªè¦ä½ æƒ³è¦å°†é¢å¤–çš„æ“ä½œä»Žâ€œå®žé™…â€å¯¹è±¡ä¸­åˆ†ç¦»åˆ°ä¸åŒçš„åœ°æ–¹ï¼Œç‰¹åˆ«æ˜¯å½“ä½ å¸Œæœ›èƒ½å¤Ÿå¾ˆå®¹æ˜“åœ°åšå‡ºä¿®æ”¹ï¼Œä»Žæ²¡æœ‰ä½¿ç”¨é¢å¤–æ“ä½œè½¬ä¸ºä½¿ç”¨è¿™äº›æ“ä½œï¼Œæˆ–è€…åè¿‡æ¥æ—¶ï¼Œä»£ç†å°±æ˜¾å¾—å¾ˆæœ‰ç”¨ï¼ˆè®¾è®¡æ¨¡å¼çš„å…³é”®æ˜¯å°è£…ä¿®æ”¹ï¼‰ã€‚ä¾‹å¦‚ï¼Œå¦‚æžœä½ å¸Œæœ›è·Ÿè¸ªå¯¹æŸä¸ªç±»ä¸­æ–¹æ³•çš„è°ƒç”¨ï¼Œæˆ–è€…å¸Œæœ›åº¦é‡è¿™äº›è°ƒç”¨çš„å¼€é”€ï¼Œé‚£ä¹ˆä½ åº”è¯¥æ€Žæ ·åšå‘¢ï¼Ÿè¿™äº›ä»£ç **è‚¯å®šæ˜¯ä½ ä¸å¸Œæœ›å°†å…¶åˆå¹¶åˆ°åº”ç”¨ä¸­çš„ä»£ç ï¼Œå› æ­¤ä»£ç†ä½¿å¾—ä½ å¯ä»¥å¾ˆå®¹æ˜“åœ°æ·»åŠ æˆ–ç§»é™¤å®ƒä»¬ã€‚**
     ```java
     interface Interface {
     	void doSomething();
@@ -443,7 +443,7 @@ public ShowMethods()
     
     }
     ```
-Êä³ö£º
+è¾“å‡ºï¼š
 > doSomething.
 somethingElse bonobo
 SimpleProxy doSomething.
@@ -451,8 +451,8 @@ doSomething.
 SimpleProxy somethingElse bonobo
 somethingElse bonobo
 
-- ¶¯Ì¬´úÀí
-JavaµÄ¶¯Ì¬´úÀí±È´úÀíµÄË¼Ïë¸üÏòÇ°Âõ½øÁËÒ»²½£¬ÒòÎªËü¿ÉÒÔ**¶¯Ì¬µØ´´½¨´úÀí²¢¶¯Ì¬µØ´¦Àí¶ÔËù´úÀí·½·¨µÄµ÷ÓÃ¡£**
+- åŠ¨æ€ä»£ç†
+Javaçš„åŠ¨æ€ä»£ç†æ¯”ä»£ç†çš„æ€æƒ³æ›´å‘å‰è¿ˆè¿›äº†ä¸€æ­¥ï¼Œå› ä¸ºå®ƒå¯ä»¥**åŠ¨æ€åœ°åˆ›å»ºä»£ç†å¹¶åŠ¨æ€åœ°å¤„ç†å¯¹æ‰€ä»£ç†æ–¹æ³•çš„è°ƒç”¨ã€‚**
     ```java
     import java.lang.reflect.InvocationHandler;
     import java.lang.reflect.Method;
@@ -500,7 +500,7 @@ JavaµÄ¶¯Ì¬´úÀí±È´úÀíµÄË¼Ïë¸üÏòÇ°Âõ½øÁËÒ»²½£¬ÒòÎªËü¿ÉÒÔ**¶¯Ì¬µØ´´½¨´úÀí²¢¶¯Ì¬µØ´¦
     
     }
     ```
-Êä³ö£º
+è¾“å‡ºï¼š
 > doSomething.
 somethingElse bonobo
 \*\*\* proxy: class typeinfo.\$Proxy0. method: public abstract void typeinfo.Interface.doSomething(). args: null
@@ -509,16 +509,16 @@ doSomething.
  bonobo
 somethingElse bonobo
 
-### 5. ¼´Ê±±àÒëÆ÷¼¼Êõ ¡ª JIT
-JavaÐéÄâ»úÖÐÓÐÐí¶à¸½¼Ó¼¼ÊõÓÃÒÔÌáÉýËÙ¶È£¬ÓÈÆäÊÇÓë¼ÓÔØÆ÷²Ù×÷Ïà¹ØµÄ£¬±»³ÆÎª¡°¼´Ê±¡±£¨Just-In-Time£¬JIT£©±àÒëÆ÷µÄ¼¼Êõ¡£**ÕâÖÖ¼¼Êõ¿ÉÒÔ°Ñ³ÌÐòÈ«²¿»ò²¿·Ö·­Òë³É±¾µØ»úÆ÷Âë£¨Õâ±¾À´ÊÇJVMµÄ¹¤×÷£©£¬³ÌÐòÔËÐÐËÙ¶ÈÒò´ËµÃÒÔÌáÉý¡£**µ±ÐèÒª×°ÔØÄ³¸öÀàÊ±£¬±àÒëÆ÷»áÏÈÕÒµ½Æä.classÎÄ¼þ£¬È»ºó½«¸ÃÀàµÄ×Ö½ÚÂë×°ÈëÄÚ´æ¡£´ËÊ±£¬ÓÐÁ½ÖÖ·½°¸¿É¹©Ñ¡Ôñ£º
-£¨1£©Ò»ÖÖ¾ÍÊÇÈÃ¼´Ê±±àÒëÆ÷±àÒëËùÓÐ´úÂë¡£µ«ÕâÖÖ×ö·¨ÓÐÁ½¸öÈ±ÏÝ£ºÕâÖÖ¼ÓÔØ¶¯×÷É¢ÂäÔÚÕû¸ö³ÌÐòÉúÃüÖÜÆÚÄÚ£¬ÀÛ¼ÓÆðÀ´Òª»¨¸ü¶àÊ±¼ä£»²¢ÇÒ»áÔö¼Ó¿ÉÖ´ÐÐ´úÂëµÄ³¤¶È£¨×Ö½ÚÂëÒª±È¼´Ê±±àÒëÆ÷Õ¹¿ªºóµÄ±¾µØ»úÆ÷ÂëÐ¡ºÜ¶à£©£¬Õâ½«µ¼ÖÂÒ³Ãæµ÷¶È£¬´Ó¶ø½µµÍ³ÌÐòËÙ¶È¡£
-£¨2£©ÁíÒ»ÖÖ×ö·¨³ÆÎª¶èÐÔÆÀ¹À£¨lazy evaluation£©£¬ÒâË¼ÊÇ¼´Ê±±àÒëÆ÷Ö»ÔÚ±ØÒªµÄÊ±ºò²Å±àÒë´úÂë£¬ÕâÑù£¬´Ó²»»á±»Ö´ÐÐµÄ´úÂëÒ²Ðí¾ÍÑ¹¸ù²»»á±»JITËù±àÒë¡£**ÐÂ°æJDKÖÐµÄJava HotSpot¼¼Êõ¾Í²ÉÓÃÁËÀàËÆ·½·¨**£¬´úÂëÃ¿´Î±»Ö´ÐÐµÄÊ±ºò¶¼»á×öÒ»Ð©ÓÅ»¯£¬ËùÒÔÖ´ÐÐµÄ´ÎÊýÔ½¶à£¬ËüµÄËÙ¶È¾ÍÔ½¿ì¡£
+### 5. å³æ—¶ç¼–è¯‘å™¨æŠ€æœ¯ â€” JIT
+Javaè™šæ‹Ÿæœºä¸­æœ‰è®¸å¤šé™„åŠ æŠ€æœ¯ç”¨ä»¥æå‡é€Ÿåº¦ï¼Œå°¤å…¶æ˜¯ä¸ŽåŠ è½½å™¨æ“ä½œç›¸å…³çš„ï¼Œè¢«ç§°ä¸ºâ€œå³æ—¶â€ï¼ˆJust-In-Timeï¼ŒJITï¼‰ç¼–è¯‘å™¨çš„æŠ€æœ¯ã€‚**è¿™ç§æŠ€æœ¯å¯ä»¥æŠŠç¨‹åºå…¨éƒ¨æˆ–éƒ¨åˆ†ç¿»è¯‘æˆæœ¬åœ°æœºå™¨ç ï¼ˆè¿™æœ¬æ¥æ˜¯JVMçš„å·¥ä½œï¼‰ï¼Œç¨‹åºè¿è¡Œé€Ÿåº¦å› æ­¤å¾—ä»¥æå‡ã€‚**å½“éœ€è¦è£…è½½æŸä¸ªç±»æ—¶ï¼Œç¼–è¯‘å™¨ä¼šå…ˆæ‰¾åˆ°å…¶.classæ–‡ä»¶ï¼Œç„¶åŽå°†è¯¥ç±»çš„å­—èŠ‚ç è£…å…¥å†…å­˜ã€‚æ­¤æ—¶ï¼Œæœ‰ä¸¤ç§æ–¹æ¡ˆå¯ä¾›é€‰æ‹©ï¼š
+ï¼ˆ1ï¼‰ä¸€ç§å°±æ˜¯è®©å³æ—¶ç¼–è¯‘å™¨ç¼–è¯‘æ‰€æœ‰ä»£ç ã€‚ä½†è¿™ç§åšæ³•æœ‰ä¸¤ä¸ªç¼ºé™·ï¼šè¿™ç§åŠ è½½åŠ¨ä½œæ•£è½åœ¨æ•´ä¸ªç¨‹åºç”Ÿå‘½å‘¨æœŸå†…ï¼Œç´¯åŠ èµ·æ¥è¦èŠ±æ›´å¤šæ—¶é—´ï¼›å¹¶ä¸”ä¼šå¢žåŠ å¯æ‰§è¡Œä»£ç çš„é•¿åº¦ï¼ˆå­—èŠ‚ç è¦æ¯”å³æ—¶ç¼–è¯‘å™¨å±•å¼€åŽçš„æœ¬åœ°æœºå™¨ç å°å¾ˆå¤šï¼‰ï¼Œè¿™å°†å¯¼è‡´é¡µé¢è°ƒåº¦ï¼Œä»Žè€Œé™ä½Žç¨‹åºé€Ÿåº¦ã€‚
+ï¼ˆ2ï¼‰å¦ä¸€ç§åšæ³•ç§°ä¸ºæƒ°æ€§è¯„ä¼°ï¼ˆlazy evaluationï¼‰ï¼Œæ„æ€æ˜¯å³æ—¶ç¼–è¯‘å™¨åªåœ¨å¿…è¦çš„æ—¶å€™æ‰ç¼–è¯‘ä»£ç ï¼Œè¿™æ ·ï¼Œä»Žä¸ä¼šè¢«æ‰§è¡Œçš„ä»£ç ä¹Ÿè®¸å°±åŽ‹æ ¹ä¸ä¼šè¢«JITæ‰€ç¼–è¯‘ã€‚**æ–°ç‰ˆJDKä¸­çš„Java HotSpotæŠ€æœ¯å°±é‡‡ç”¨äº†ç±»ä¼¼æ–¹æ³•**ï¼Œä»£ç æ¯æ¬¡è¢«æ‰§è¡Œçš„æ—¶å€™éƒ½ä¼šåšä¸€äº›ä¼˜åŒ–ï¼Œæ‰€ä»¥æ‰§è¡Œçš„æ¬¡æ•°è¶Šå¤šï¼Œå®ƒçš„é€Ÿåº¦å°±è¶Šå¿«ã€‚
 
-### 6. ·ÃÎÊ¿ØÖÆÈ¨ÏÞ
-- Java·ÃÎÊÈ¨ÏÞÐÞÊÎ´Ê£º**public¡¢protected¡¢°ü·ÃÎÊÈ¨ÏÞ£¨Ä¬ÈÏ·ÃÎÊÈ¨ÏÞ£¬ÓÐÊ±Ò²³Æfriendly£©ºÍprivate¡£**
-- °ü·ÃÎÊÈ¨ÏÞ£ºµ±Ç°°üÖÐµÄËùÓÐÆäËûÀà¶ÔÄÇ¸ö³ÉÔ±¾ßÓÐ·ÃÎÊÈ¨ÏÞ£¬µ«¶ÔÓÚÕâ¸ö°üÖ®ÍâµÄËùÓÐÀà£¬Õâ¸ö³ÉÔ±È´ÊÇprivate¡£
-- protected£º¼Ì³Ð·ÃÎÊÈ¨ÏÞ¡£ÓÐÊ±»ùÀàµÄ´´½¨Õß»áÏ£ÍûÓÐÄ³¸öÌØ¶¨³ÉÔ±£¬°Ñ¶ÔËüµÄ·ÃÎÊÈ¨ÏÞ¸³ÓèÅÉÉúÀà¶ø²»ÊÇËùÓÐÀà¡£Õâ¾ÍÐèÒªprotectedÀ´Íê³ÉÕâÒ»¹¤×÷¡£protectedÒ²Ìá¹©°ü·ÃÎÊÈ¨ÏÞ£¬Ò²¾ÍÊÇËµ£¬ÏàÍ¬°üÄÚµÄÆäËûÀà¶¼¿ÉÒÔ·ÃÎÊprotectedÔªËØ¡£protectedÖ¸Ã÷**¡°¾ÍÀàÓÃ»§¶øÑÔ£¬ÕâÊÇprivateµÄ£¬µ«¶ÔÓÚÈÎºÎ¼Ì³ÐÓÚ´ËÀàµÄµ¼³öÀà»òÆäËûÈÎºÎÎ»ÓÚÍ¬Ò»¸ö°üÄÚµÄÀàÀ´Ëµ£¬ËüÈ´ÊÇ¿ÉÒÔ·ÃÎÊµÄ¡±**¡£±ÈÈç£º
-»ùÀà£º
+### 6. è®¿é—®æŽ§åˆ¶æƒé™
+- Javaè®¿é—®æƒé™ä¿®é¥°è¯ï¼š**publicã€protectedã€åŒ…è®¿é—®æƒé™ï¼ˆé»˜è®¤è®¿é—®æƒé™ï¼Œæœ‰æ—¶ä¹Ÿç§°friendlyï¼‰å’Œprivateã€‚**
+- åŒ…è®¿é—®æƒé™ï¼šå½“å‰åŒ…ä¸­çš„æ‰€æœ‰å…¶ä»–ç±»å¯¹é‚£ä¸ªæˆå‘˜å…·æœ‰è®¿é—®æƒé™ï¼Œä½†å¯¹äºŽè¿™ä¸ªåŒ…ä¹‹å¤–çš„æ‰€æœ‰ç±»ï¼Œè¿™ä¸ªæˆå‘˜å´æ˜¯privateã€‚
+- protectedï¼šç»§æ‰¿è®¿é—®æƒé™ã€‚æœ‰æ—¶åŸºç±»çš„åˆ›å»ºè€…ä¼šå¸Œæœ›æœ‰æŸä¸ªç‰¹å®šæˆå‘˜ï¼ŒæŠŠå¯¹å®ƒçš„è®¿é—®æƒé™èµ‹äºˆæ´¾ç”Ÿç±»è€Œä¸æ˜¯æ‰€æœ‰ç±»ã€‚è¿™å°±éœ€è¦protectedæ¥å®Œæˆè¿™ä¸€å·¥ä½œã€‚protectedä¹Ÿæä¾›åŒ…è®¿é—®æƒé™ï¼Œä¹Ÿå°±æ˜¯è¯´ï¼Œç›¸åŒåŒ…å†…çš„å…¶ä»–ç±»éƒ½å¯ä»¥è®¿é—®protectedå…ƒç´ ã€‚protectedæŒ‡æ˜Ž**â€œå°±ç±»ç”¨æˆ·è€Œè¨€ï¼Œè¿™æ˜¯privateçš„ï¼Œä½†å¯¹äºŽä»»ä½•ç»§æ‰¿äºŽæ­¤ç±»çš„å¯¼å‡ºç±»æˆ–å…¶ä»–ä»»ä½•ä½äºŽåŒä¸€ä¸ªåŒ…å†…çš„ç±»æ¥è¯´ï¼Œå®ƒå´æ˜¯å¯ä»¥è®¿é—®çš„â€**ã€‚æ¯”å¦‚ï¼š
+åŸºç±»ï¼š
     ```java
     package access.cookie;
     public class Cookie {
@@ -526,12 +526,12 @@ JavaÐéÄâ»úÖÐÓÐÐí¶à¸½¼Ó¼¼ÊõÓÃÒÔÌáÉýËÙ¶È£¬ÓÈÆäÊÇÓë¼ÓÔØÆ÷²Ù×÷Ïà¹ØµÄ£¬±»³ÆÎª¡°¼´Ê±¡±
             System.out.println("Cookie Constructor");
         }
      
-        void bite() {  // °ü·ÃÎÊÈ¨ÏÞ£¬ÆäËü°ü¼´Ê¹ÊÇ×ÓÀàÒ²²»ÄÜ·ÃÎÊËü
+        void bite() {  // åŒ…è®¿é—®æƒé™ï¼Œå…¶å®ƒåŒ…å³ä½¿æ˜¯å­ç±»ä¹Ÿä¸èƒ½è®¿é—®å®ƒ
             System.out.println("bite");
         }
     }
     ```
-×ÓÀà£º
+å­ç±»ï¼š
     ```java
     package access.dessert;
     import access.cookie.Cookie;
@@ -547,49 +547,49 @@ JavaÐéÄâ»úÖÐÓÐÐí¶à¸½¼Ó¼¼ÊõÓÃÒÔÌáÉýËÙ¶È£¬ÓÈÆäÊÇÓë¼ÓÔØÆ÷²Ù×÷Ïà¹ØµÄ£¬±»³ÆÎª¡°¼´Ê±¡±
     	}
     }
     ```
-¿ÉÒÔ·¢ÏÖ×ÓÀà²¢²»ÄÜ·ÃÎÊ»ùÀàµÄ°ü·ÃÎÊÈ¨ÏÞ·½·¨¡£´ËÊ±¿ÉÒÔ½«CookieÖÐµÄbiteÖ¸¶¨Îªpublic£¬µ«**ÕâÑù×öËùÓÐµÄÈË¾Í¶¼ÓÐÁË·ÃÎÊÈ¨ÏÞ£¬ÎªÁËÖ»ÔÊÐí×ÓÀà·ÃÎÊ£¬¿ÉÒÔ½«biteÖ¸¶¨Îªprotected¼´¿É¡£**
+å¯ä»¥å‘çŽ°å­ç±»å¹¶ä¸èƒ½è®¿é—®åŸºç±»çš„åŒ…è®¿é—®æƒé™æ–¹æ³•ã€‚æ­¤æ—¶å¯ä»¥å°†Cookieä¸­çš„biteæŒ‡å®šä¸ºpublicï¼Œä½†**è¿™æ ·åšæ‰€æœ‰çš„äººå°±éƒ½æœ‰äº†è®¿é—®æƒé™ï¼Œä¸ºäº†åªå…è®¸å­ç±»è®¿é—®ï¼Œå¯ä»¥å°†biteæŒ‡å®šä¸ºprotectedå³å¯ã€‚**
 
-### 7. ×éºÏºÍ¼Ì³ÐÖ®¼äµÄÑ¡Ôñ
-- ×éºÏºÍ¼Ì³Ð**¶¼ÔÊÐíÔÚÐÂµÄÀàÖÐ·ÅÖÃ×Ó¶ÔÏó**£¬×éºÏÊÇÏÔÊ½µÄÕâÑù×ö£¬¶ø¼Ì³ÐÔòÊÇÒþÊ½µÄ×ö¡£
-- **×éºÏ¼¼ÊõÍ¨³£ÓÃÓÚÏëÔÚÐÂÀàÖÐÊ¹ÓÃÏÖÓÐÀàµÄ¹¦ÄÜ¶ø·ÇËüµÄ½Ó¿ÚÕâÖÖÇéÐÎ**¡£¼´ÔÚÐÂÀàÖÐÇ¶ÈëÄ³¸ö¶ÔÏó£¬ÈÃÆäÊµÏÖËùÐèÒªµÄ¹¦ÄÜ£¬µ«ÐÂÀàµÄÓÃ»§¿´µ½µÄÖ»ÊÇÎªÐÂÀàËù¶¨ÒåµÄ½Ó¿Ú£¬¶ø·ÇËùÇ¶Èë¶ÔÏóµÄ½Ó¿Ú¡£ÎªÈ¡µÃ´ËÐ§¹û£¬ÐèÒªÔÚÐÂÀàÖÐÇ¶ÈëÒ»¸öÏÖÓÐÀàµÄprivate¶ÔÏó¡£µ«**ÓÐÊ±£¬ÔÊÐíÀàµÄÓÃ»§Ö±½Ó·ÃÎÊÐÂÀàÖÐµÄ×éºÏ³É·ÖÊÇ¼«¾ßÒâÒåµÄ£¬¼´½«³ÉÔ±¶ÔÏóÉùÃ÷Îªpublic**¡£Èç¹û³ÉÔ±¶ÔÏó×ÔÉí¶¼Òþ²ØÁË¾ßÌåÊµÏÖ£¬ÄÇÃ´ÕâÖÖ×ö·¨ÊÇ°²È«µÄ¡£µ±ÓÃ»§ÄÜ¹»ÁË½âµ½ÄãÕýÔÚ×é×°Ò»×é²¿¼þÊ±£¬»áÊ¹µÃ¶Ë¿Ú¸ü¼ÓÒ×ÓÚÀí½â¡£±ÈÈçCar¶ÔÏó¿ÉÓÉpublicµÄEngine¶ÔÏó¡¢Wheel¶ÔÏó¡¢Window¶ÔÏóºÍDoor¶ÔÏó×éºÏ¡£µ«Îñ±ØÒª¼ÇµÃÕâ½ö½öÊÇÒ»¸öÌØÀý£¬**Ò»°ãÇé¿öÏÂÓ¦¸ÃÊ¹Óò³ÉÎªprivate**¡£
-- ÔÚ¼Ì³ÐµÄÊ±ºò£¬Ê¹ÓÃÄ³¸öÏÖÓÐÀà£¬²¢¿ª·¢Ò»¸öËüµÄÌØÊâ°æ±¾¡£Í¨³££¬**ÕâÒâÎ¶×ÅÄãÔÚÊ¹ÓÃÒ»¸öÍ¨ÓÃÀà£¬²¢ÎªÁËÄ³ÖÖÌØÊâÐèÒª¶ø½«ÆäÌØÊâ»¯¡£**ÉÔÎ¢Ë¼¿¼Ò»ÏÂ¾Í»á·¢ÏÖ£¬ÓÃÒ»¸ö¡°½»Í¨¹¤¾ß¡±¶ÔÏóÀ´¹¹³ÉÒ»²¿¡°³µ×Ó¡±ÊÇºÁÎÞÒâÒåµÄ£¬ÒòÎª¡°³µ×Ó¡±²¢²»°üº¬¡°½»Í¨¹¤¾ß¡±£¬Ëü½öÊÇÒ»ÖÖ½»Í¨¹¤¾ß£¨is-a¹ØÏµ£©¡£
-- **¡°is-a¡±£¨ÊÇÒ»¸ö£©µÄ¹ØÏµÊÇÓÃ¼Ì³ÐÀ´±í´ïµÄ£¬¶ø¡°has-a¡±£¨ÓÐÒ»¸ö£©µÄ¹ØÏµÔòÊÇÓÃ×éºÏÀ´±í´ïµÄ**¡£
-- µ½µ×ÊÇ¸ÃÓÃ×éºÏ»¹ÊÇ¼Ì³Ð£¬Ò»¸ö×îÇåÎúµÄÅÐ¶Ï·½·¨¾ÍÊÇÎÊÒ»ÎÊ×Ô¼ºÊÇ·ñÐèÒª´ÓÐÂÀàÏò»ùÀà½øÐÐÏòÉÏ×ªÐÍ£¬ÐèÒªµÄ»°¾ÍÓÃ¼Ì³Ð£¬²»ÐèÒªµÄ»°¾ÍÓÃ×éºÏ·½Ê½¡£
+### 7. ç»„åˆå’Œç»§æ‰¿ä¹‹é—´çš„é€‰æ‹©
+- ç»„åˆå’Œç»§æ‰¿**éƒ½å…è®¸åœ¨æ–°çš„ç±»ä¸­æ”¾ç½®å­å¯¹è±¡**ï¼Œç»„åˆæ˜¯æ˜¾å¼çš„è¿™æ ·åšï¼Œè€Œç»§æ‰¿åˆ™æ˜¯éšå¼çš„åšã€‚
+- **ç»„åˆæŠ€æœ¯é€šå¸¸ç”¨äºŽæƒ³åœ¨æ–°ç±»ä¸­ä½¿ç”¨çŽ°æœ‰ç±»çš„åŠŸèƒ½è€Œéžå®ƒçš„æŽ¥å£è¿™ç§æƒ…å½¢**ã€‚å³åœ¨æ–°ç±»ä¸­åµŒå…¥æŸä¸ªå¯¹è±¡ï¼Œè®©å…¶å®žçŽ°æ‰€éœ€è¦çš„åŠŸèƒ½ï¼Œä½†æ–°ç±»çš„ç”¨æˆ·çœ‹åˆ°çš„åªæ˜¯ä¸ºæ–°ç±»æ‰€å®šä¹‰çš„æŽ¥å£ï¼Œè€Œéžæ‰€åµŒå…¥å¯¹è±¡çš„æŽ¥å£ã€‚ä¸ºå–å¾—æ­¤æ•ˆæžœï¼Œéœ€è¦åœ¨æ–°ç±»ä¸­åµŒå…¥ä¸€ä¸ªçŽ°æœ‰ç±»çš„privateå¯¹è±¡ã€‚ä½†**æœ‰æ—¶ï¼Œå…è®¸ç±»çš„ç”¨æˆ·ç›´æŽ¥è®¿é—®æ–°ç±»ä¸­çš„ç»„åˆæˆåˆ†æ˜¯æžå…·æ„ä¹‰çš„ï¼Œå³å°†æˆå‘˜å¯¹è±¡å£°æ˜Žä¸ºpublic**ã€‚å¦‚æžœæˆå‘˜å¯¹è±¡è‡ªèº«éƒ½éšè—äº†å…·ä½“å®žçŽ°ï¼Œé‚£ä¹ˆè¿™ç§åšæ³•æ˜¯å®‰å…¨çš„ã€‚å½“ç”¨æˆ·èƒ½å¤Ÿäº†è§£åˆ°ä½ æ­£åœ¨ç»„è£…ä¸€ç»„éƒ¨ä»¶æ—¶ï¼Œä¼šä½¿å¾—ç«¯å£æ›´åŠ æ˜“äºŽç†è§£ã€‚æ¯”å¦‚Carå¯¹è±¡å¯ç”±publicçš„Engineå¯¹è±¡ã€Wheelå¯¹è±¡ã€Windowå¯¹è±¡å’ŒDoorå¯¹è±¡ç»„åˆã€‚ä½†åŠ¡å¿…è¦è®°å¾—è¿™ä»…ä»…æ˜¯ä¸€ä¸ªç‰¹ä¾‹ï¼Œ**ä¸€èˆ¬æƒ…å†µä¸‹åº”è¯¥ä½¿åŸŸæˆä¸ºprivate**ã€‚
+- åœ¨ç»§æ‰¿çš„æ—¶å€™ï¼Œä½¿ç”¨æŸä¸ªçŽ°æœ‰ç±»ï¼Œå¹¶å¼€å‘ä¸€ä¸ªå®ƒçš„ç‰¹æ®Šç‰ˆæœ¬ã€‚é€šå¸¸ï¼Œ**è¿™æ„å‘³ç€ä½ åœ¨ä½¿ç”¨ä¸€ä¸ªé€šç”¨ç±»ï¼Œå¹¶ä¸ºäº†æŸç§ç‰¹æ®Šéœ€è¦è€Œå°†å…¶ç‰¹æ®ŠåŒ–ã€‚**ç¨å¾®æ€è€ƒä¸€ä¸‹å°±ä¼šå‘çŽ°ï¼Œç”¨ä¸€ä¸ªâ€œäº¤é€šå·¥å…·â€å¯¹è±¡æ¥æž„æˆä¸€éƒ¨â€œè½¦å­â€æ˜¯æ¯«æ— æ„ä¹‰çš„ï¼Œå› ä¸ºâ€œè½¦å­â€å¹¶ä¸åŒ…å«â€œäº¤é€šå·¥å…·â€ï¼Œå®ƒä»…æ˜¯ä¸€ç§äº¤é€šå·¥å…·ï¼ˆis-aå…³ç³»ï¼‰ã€‚
+- **â€œis-aâ€ï¼ˆæ˜¯ä¸€ä¸ªï¼‰çš„å…³ç³»æ˜¯ç”¨ç»§æ‰¿æ¥è¡¨è¾¾çš„ï¼Œè€Œâ€œhas-aâ€ï¼ˆæœ‰ä¸€ä¸ªï¼‰çš„å…³ç³»åˆ™æ˜¯ç”¨ç»„åˆæ¥è¡¨è¾¾çš„**ã€‚
+- åˆ°åº•æ˜¯è¯¥ç”¨ç»„åˆè¿˜æ˜¯ç»§æ‰¿ï¼Œä¸€ä¸ªæœ€æ¸…æ™°çš„åˆ¤æ–­æ–¹æ³•å°±æ˜¯é—®ä¸€é—®è‡ªå·±æ˜¯å¦éœ€è¦ä»Žæ–°ç±»å‘åŸºç±»è¿›è¡Œå‘ä¸Šè½¬åž‹ï¼Œéœ€è¦çš„è¯å°±ç”¨ç»§æ‰¿ï¼Œä¸éœ€è¦çš„è¯å°±ç”¨ç»„åˆæ–¹å¼ã€‚
 
-### 8. final¹Ø¼ü×Ö
-- ¶Ôfinal¹Ø¼ü×ÖµÄÎó½â
-µ±finalÐÞÊÎµÄÊÇ»ù±¾Êý¾ÝÀàÐÍÊ±£¬ËüÖ¸µÄÊÇÊýÖµºã¶¨²»±ä£¨¾ÍÊÇ±àÒëÆÚ³£Á¿£¬Èç¹ûÊÇstatic finalÐÞÊÎ£¬ÔòÇ¿µ÷Ö»ÓÐÒ»·Ý£©£¬¶ø¶Ô¶ÔÏóÒýÓÃ¶ø²»ÊÇ»ù±¾ÀàÐÍÔËÓÃfinalÊ±£¬Æäº¬Òå»áÓÐÒ»µãÁîÈËÃÔ»ó£¬ÒòÎªÓÃÓÚ¶ÔÏóÒýÓÃÊ±£¬finalÊ¹ÒýÓÃºã¶¨²»±ä£¬Ò»µ©ÒýÓÃ±»³õÊ¼»¯Ö¸ÏòÒ»¸ö¶ÔÏó£¬¾ÍÎÞ·¨ÔÙ°ÑËüÖ¸ÏòÁíÒ»¸ö¶ÔÏó¡£È»¶ø£¬**¶ÔÏóÆä×ÔÉíÈ´ÊÇ¿ÉÒÔ±»ÐÞ¸ÄµÄ**£¬Java²¢Î´Ìá¹©Ê¹ÈÎºÎ¶ÔÏóºã¶¨²»±äµÄÍ¾¾¶£¨µ«¿ÉÒÔ×Ô¼º±àÐ´ÀàÒÔÈ¡µÃÊ¹¶ÔÏóºã¶¨²»±äµÄÐ§¹û£©£¬ÕâÒ»ÏÞÖÆÍ¬ÑùÊÊÓÃÊý×é£¬ËüÒ²ÊÇ¶ÔÏó¡£
-- **Ê¹ÓÃfinal·½·¨ÕæµÄ¿ÉÒÔÌá¸ß³ÌÐòÐ§ÂÊÂð£¿**
-½«Ò»¸ö·½·¨Éè³Éfinalºó£¬±àÒëÆ÷¾Í¿ÉÒÔ°Ñ¶ÔÄÇ¸ö·½·¨µÄËùÓÐµ÷ÓÃ¶¼ÖÃÈë¡°Ç¶Èë¡±µ÷ÓÃÀï¡£Ö»Òª±àÒëÆ÷·¢ÏÖÒ»¸öfinal·½·¨µ÷ÓÃ£¬¾Í»á£¨¸ù¾ÝËü×Ô¼ºµÄÅÐ¶Ï£©ºöÂÔÎªÖ´ÐÐ·½·¨µ÷ÓÃ»úÖÆ¶ø²ÉÈ¡µÄ³£¹æ´úÂë²åÈë·½·¨£¨½«×Ô±äÁ¿Ñ¹Èë¶ÑÕ»£»ÌøÖÁ·½·¨´úÂë²¢Ö´ÐÐËü£»Ìø»ØÀ´£»Çå³ý¶ÑÕ»×Ô±äÁ¿£»×îºó¶Ô·µ»ØÖµ½øÐÐ´¦Àí£©¡£Ïà·´£¬**Ëü»áÓÃ·½·¨Ö÷ÌåÄÚÊµ¼Ê´úÂëµÄÒ»¸ö¸±±¾À´Ìæ»»·½·¨µ÷ÓÃ**¡£ÕâÑù×ö¿É±ÜÃâ·½·¨µ÷ÓÃÊ±µÄÏµÍ³¿ªÏú¡£µ±È»£¬Èô·½·¨Ìå»ýÌ«´ó£¬ÄÇÃ´³ÌÐòÒ²»á±äµÃÓºÖ×£¬¿ÉÄÜÊÜµ½µ½²»µ½Ç¶Èë´úÂëËù´øÀ´µÄÈÎºÎÐÔÄÜÌáÉý¡£ÒòÎªÈÎºÎÌáÉý¶¼±»»¨ÔÚ·½·¨ÄÚ²¿µÄÊ±¼äµÖÏûÁË¡£
+### 8. finalå…³é”®å­—
+- å¯¹finalå…³é”®å­—çš„è¯¯è§£
+å½“finalä¿®é¥°çš„æ˜¯åŸºæœ¬æ•°æ®ç±»åž‹æ—¶ï¼Œå®ƒæŒ‡çš„æ˜¯æ•°å€¼æ’å®šä¸å˜ï¼ˆå°±æ˜¯ç¼–è¯‘æœŸå¸¸é‡ï¼Œå¦‚æžœæ˜¯static finalä¿®é¥°ï¼Œåˆ™å¼ºè°ƒåªæœ‰ä¸€ä»½ï¼‰ï¼Œè€Œå¯¹å¯¹è±¡å¼•ç”¨è€Œä¸æ˜¯åŸºæœ¬ç±»åž‹è¿ç”¨finalæ—¶ï¼Œå…¶å«ä¹‰ä¼šæœ‰ä¸€ç‚¹ä»¤äººè¿·æƒ‘ï¼Œå› ä¸ºç”¨äºŽå¯¹è±¡å¼•ç”¨æ—¶ï¼Œfinalä½¿å¼•ç”¨æ’å®šä¸å˜ï¼Œä¸€æ—¦å¼•ç”¨è¢«åˆå§‹åŒ–æŒ‡å‘ä¸€ä¸ªå¯¹è±¡ï¼Œå°±æ— æ³•å†æŠŠå®ƒæŒ‡å‘å¦ä¸€ä¸ªå¯¹è±¡ã€‚ç„¶è€Œï¼Œ**å¯¹è±¡å…¶è‡ªèº«å´æ˜¯å¯ä»¥è¢«ä¿®æ”¹çš„**ï¼ŒJavaå¹¶æœªæä¾›ä½¿ä»»ä½•å¯¹è±¡æ’å®šä¸å˜çš„é€”å¾„ï¼ˆä½†å¯ä»¥è‡ªå·±ç¼–å†™ç±»ä»¥å–å¾—ä½¿å¯¹è±¡æ’å®šä¸å˜çš„æ•ˆæžœï¼‰ï¼Œè¿™ä¸€é™åˆ¶åŒæ ·é€‚ç”¨æ•°ç»„ï¼Œå®ƒä¹Ÿæ˜¯å¯¹è±¡ã€‚
+- **ä½¿ç”¨finalæ–¹æ³•çœŸçš„å¯ä»¥æé«˜ç¨‹åºæ•ˆçŽ‡å—ï¼Ÿ**
+å°†ä¸€ä¸ªæ–¹æ³•è®¾æˆfinalåŽï¼Œç¼–è¯‘å™¨å°±å¯ä»¥æŠŠå¯¹é‚£ä¸ªæ–¹æ³•çš„æ‰€æœ‰è°ƒç”¨éƒ½ç½®å…¥â€œåµŒå…¥â€è°ƒç”¨é‡Œã€‚åªè¦ç¼–è¯‘å™¨å‘çŽ°ä¸€ä¸ªfinalæ–¹æ³•è°ƒç”¨ï¼Œå°±ä¼šï¼ˆæ ¹æ®å®ƒè‡ªå·±çš„åˆ¤æ–­ï¼‰å¿½ç•¥ä¸ºæ‰§è¡Œæ–¹æ³•è°ƒç”¨æœºåˆ¶è€Œé‡‡å–çš„å¸¸è§„ä»£ç æ’å…¥æ–¹æ³•ï¼ˆå°†è‡ªå˜é‡åŽ‹å…¥å †æ ˆï¼›è·³è‡³æ–¹æ³•ä»£ç å¹¶æ‰§è¡Œå®ƒï¼›è·³å›žæ¥ï¼›æ¸…é™¤å †æ ˆè‡ªå˜é‡ï¼›æœ€åŽå¯¹è¿”å›žå€¼è¿›è¡Œå¤„ç†ï¼‰ã€‚ç›¸åï¼Œ**å®ƒä¼šç”¨æ–¹æ³•ä¸»ä½“å†…å®žé™…ä»£ç çš„ä¸€ä¸ªå‰¯æœ¬æ¥æ›¿æ¢æ–¹æ³•è°ƒç”¨**ã€‚è¿™æ ·åšå¯é¿å…æ–¹æ³•è°ƒç”¨æ—¶çš„ç³»ç»Ÿå¼€é”€ã€‚å½“ç„¶ï¼Œè‹¥æ–¹æ³•ä½“ç§¯å¤ªå¤§ï¼Œé‚£ä¹ˆç¨‹åºä¹Ÿä¼šå˜å¾—é›è‚¿ï¼Œå¯èƒ½å—åˆ°åˆ°ä¸åˆ°åµŒå…¥ä»£ç æ‰€å¸¦æ¥çš„ä»»ä½•æ€§èƒ½æå‡ã€‚å› ä¸ºä»»ä½•æå‡éƒ½è¢«èŠ±åœ¨æ–¹æ³•å†…éƒ¨çš„æ—¶é—´æŠµæ¶ˆäº†ã€‚
 
- ÔÚ×î½üµÄJava°æ±¾ÖÐ£¬ÐéÄâ»ú£¨ÌØ±ðÊÇhotspot¼¼Êõ£©ÄÜ×Ô¶¯Õì²âÕâÐ©Çé¿ö£¬²¢ÆÄÎª¡°Ã÷ÖÇ¡±µØ¾ö¶¨ÊÇ·ñÇ¶ÈëÒ»¸öfinal ·½·¨¡£È»¶ø£¬×îºÃ»¹ÊÇ²»ÒªÍêÈ«ÏàÐÅ±àÒëÆ÷ÄÜÕýÈ·µØ×÷³öËùÓÐÅÐ¶Ï¡£Í¨³££¬**Ö»ÓÐÔÚ·½·¨µÄ´úÂëÁ¿·Ç³£ÉÙ£¬»òÕßÏëÃ÷È·½ûÖ¹·½·¨±»¸²¸ÇµÄÊ±ºò£¬²ÅÓ¦¿¼ÂÇ½«Ò»¸ö·½·¨ÉèÎªfinal¡£**
+ åœ¨æœ€è¿‘çš„Javaç‰ˆæœ¬ä¸­ï¼Œè™šæ‹Ÿæœºï¼ˆç‰¹åˆ«æ˜¯hotspotæŠ€æœ¯ï¼‰èƒ½è‡ªåŠ¨ä¾¦æµ‹è¿™äº›æƒ…å†µï¼Œå¹¶é¢‡ä¸ºâ€œæ˜Žæ™ºâ€åœ°å†³å®šæ˜¯å¦åµŒå…¥ä¸€ä¸ªfinal æ–¹æ³•ã€‚ç„¶è€Œï¼Œæœ€å¥½è¿˜æ˜¯ä¸è¦å®Œå…¨ç›¸ä¿¡ç¼–è¯‘å™¨èƒ½æ­£ç¡®åœ°ä½œå‡ºæ‰€æœ‰åˆ¤æ–­ã€‚é€šå¸¸ï¼Œ**åªæœ‰åœ¨æ–¹æ³•çš„ä»£ç é‡éžå¸¸å°‘ï¼Œæˆ–è€…æƒ³æ˜Žç¡®ç¦æ­¢æ–¹æ³•è¢«è¦†ç›–çš„æ—¶å€™ï¼Œæ‰åº”è€ƒè™‘å°†ä¸€ä¸ªæ–¹æ³•è®¾ä¸ºfinalã€‚**
 
- ÀàÄÚËùÓÐprivate ·½·¨¶¼×Ô¶¯³ÉÎªfinal¡£ÓÉÓÚÎÒÃÇ²»ÄÜ·ÃÎÊÒ»¸öprivate ·½·¨£¬ËùÒÔËü¾ø¶Ô²»»á±»ÆäËû·½·¨¸²¸Ç£¨ÈôÇ¿ÐÐÕâÑù×ö£¬±àÒëÆ÷»á¸ø³ö´íÎóÌáÊ¾£©¡£¿ÉÎªÒ»¸öprivate·½·¨Ìí¼ÓfinalÖ¸Ê¾·û£¬µ«È´²»ÄÜÎªÄÇ¸ö·½·¨Ìá¹©ÈÎºÎ¶îÍâµÄº¬Òå¡£
+ ç±»å†…æ‰€æœ‰private æ–¹æ³•éƒ½è‡ªåŠ¨æˆä¸ºfinalã€‚ç”±äºŽæˆ‘ä»¬ä¸èƒ½è®¿é—®ä¸€ä¸ªprivate æ–¹æ³•ï¼Œæ‰€ä»¥å®ƒç»å¯¹ä¸ä¼šè¢«å…¶ä»–æ–¹æ³•è¦†ç›–ï¼ˆè‹¥å¼ºè¡Œè¿™æ ·åšï¼Œç¼–è¯‘å™¨ä¼šç»™å‡ºé”™è¯¯æç¤ºï¼‰ã€‚å¯ä¸ºä¸€ä¸ªprivateæ–¹æ³•æ·»åŠ finalæŒ‡ç¤ºç¬¦ï¼Œä½†å´ä¸èƒ½ä¸ºé‚£ä¸ªæ–¹æ³•æä¾›ä»»ä½•é¢å¤–çš„å«ä¹‰ã€‚
 
-### 9. ²ßÂÔÉè¼ÆÄ£Ê½ÓëÊÊÅäÆ÷Ä£Ê½µÄÇø±ð
-- ²ßÂÔÉè¼ÆÄ£Ê½
-´´½¨Ò»¸öÄÜ¹»¸ù¾ÝËù´«µÝµÄ²ÎÊý¶ÔÏóµÄ²»Í¬¶ø¾ßÓÐ²»Í¬ÐÐÎªµÄ·½·¨£¬±»³ÆÎª²ßÂÔÉè¼ÆÄ£Ê½£¬ÕâÀà·½·¨°üº¬ËùÒªÖ´ÐÐµÄËã·¨ÖÐ¹Ì¶¨²»±äµÄ²¿·Ö£¬¶ø¡°²ßÂÔ¡±°üº¬±ä»¯µÄ²¿·Ö¡£²ßÂÔ¾ÍÊÇ´«µÝ½øÈ¥µÄ²ÎÊý¶ÔÏó£¬Ëü°üº¬ÒªÖ´ÐÐµÄ´úÂë¡£
-- ÊÊÅäÆ÷Ä£Ê½
-ÔÚÄãÎÞ·¨ÐÞ¸ÄÄãÏëÒªÊ¹ÓÃµÄÀàÊ±£¬¿ÉÒÔÊ¹ÓÃÊÊÅäÆ÷Ä£Ê½£¬ÊÊÅäÆ÷ÖÐµÄ´úÂë½«½ÓÊÜÄãËùÓµÓÐµÄ½Ó¿Ú£¬²¢²úÉúÄãËùÐèÒªµÄ½Ó¿Ú¡£
+### 9. ç­–ç•¥è®¾è®¡æ¨¡å¼ä¸Žé€‚é…å™¨æ¨¡å¼çš„åŒºåˆ«
+- ç­–ç•¥è®¾è®¡æ¨¡å¼
+åˆ›å»ºä¸€ä¸ªèƒ½å¤Ÿæ ¹æ®æ‰€ä¼ é€’çš„å‚æ•°å¯¹è±¡çš„ä¸åŒè€Œå…·æœ‰ä¸åŒè¡Œä¸ºçš„æ–¹æ³•ï¼Œè¢«ç§°ä¸ºç­–ç•¥è®¾è®¡æ¨¡å¼ï¼Œè¿™ç±»æ–¹æ³•åŒ…å«æ‰€è¦æ‰§è¡Œçš„ç®—æ³•ä¸­å›ºå®šä¸å˜çš„éƒ¨åˆ†ï¼Œè€Œâ€œç­–ç•¥â€åŒ…å«å˜åŒ–çš„éƒ¨åˆ†ã€‚ç­–ç•¥å°±æ˜¯ä¼ é€’è¿›åŽ»çš„å‚æ•°å¯¹è±¡ï¼Œå®ƒåŒ…å«è¦æ‰§è¡Œçš„ä»£ç ã€‚
+- é€‚é…å™¨æ¨¡å¼
+åœ¨ä½ æ— æ³•ä¿®æ”¹ä½ æƒ³è¦ä½¿ç”¨çš„ç±»æ—¶ï¼Œå¯ä»¥ä½¿ç”¨é€‚é…å™¨æ¨¡å¼ï¼Œé€‚é…å™¨ä¸­çš„ä»£ç å°†æŽ¥å—ä½ æ‰€æ‹¥æœ‰çš„æŽ¥å£ï¼Œå¹¶äº§ç”Ÿä½ æ‰€éœ€è¦çš„æŽ¥å£ã€‚
 
-### 10. ÄÚ²¿Àà
-- ÄÚ²¿ÀàÓë×éºÏÊÇÍêÈ«²»Í¬µÄ¸ÅÄî£¬ÕâÒ»µãºÜÖØÒª¡£
-- ÎªÊ²Ã´ÐèÒªÄÚ²¿Àà£¿ ¡ª **Ö÷ÒªÊÇ½â¾öÁË¶à¼Ì³ÐµÄÎÊÌâ£¬¼Ì³Ð¾ßÌå»ò³éÏóÀà**
-    - Ò»°ãÀ´Ëµ£¬ÄÚ²¿Àà¼Ì³Ð×ÔÄ³¸öÀà»òÊµÏÖÄ³¸ö½Ó¿Ú£¬ÄÚ²¿ÀàµÄ´úÂë²Ù×÷´´½¨ËüµÄÍâÎ§ÀàµÄ¶ÔÏó¡£ËùÒÔ¿ÉÒÔÈÏÎª**ÄÚ²¿ÀàÌá¹©ÁËÄ³ÖÖ½øÈëÆäÍâÎ§ÀàµÄ´°¿Ú¡£**
-    - ÄÚ²¿Àà×îÎüÒýÈËµÄÔ­ÒòÊÇ£ºÃ¿¸öÄÚ²¿Àà¶¼ÄÜ¶ÀÁ¢µØ¼Ì³Ð×ÔÒ»¸ö£¨½Ó¿ÚµÄ£©ÊµÏÖ£¬ËùÒÔÎÞÂÛÍâÎ§ÀàÊÇ·ñÒÑ¾­¼Ì³ÐÁËÄ³¸ö£¨½Ó¿ÚµÄ£©ÊµÏÖ£¬¶ÔÓÚÄÚ²¿Àà¶¼Ã»ÓÐÓ°Ïì¡£
-    - Èç¹ûÃ»ÓÐÄÚ²¿ÀàÌá¹©µÄ¡¢¿ÉÒÔ¼Ì³Ð¶à¸ö¾ßÌåµÄ»ò³éÏóµÄÀàµÄÄÜÁ¦£¬Ò»Ð©Éè¼ÆÓë±à³ÌÎÊÌâ¾ÍºÜÄÑ½â¾ö¡£´ÓÕâ¸ö½Ç¶È¿´£¬ÄÚ²¿ÀàÊ¹µÃ¶àÖØ¼Ì³ÐµÄ½â¾ö·½°¸±äµÃÍêÕû¡£½Ó¿Ú½â¾öÁË²¿·ÖÎÊÌâ£¬¶øÄÚ²¿ÀàÓÐÐ§µÄÊµÏÖÁË¡°¶àÖØ¼Ì³Ð¡±¡£Ò²¾ÍÊÇËµ£¬**ÄÚ²¿ÀàÔÊÐí¼Ì³Ð¶à¸ö·Ç½Ó¿ÚÀàÐÍ¡£**
+### 10. å†…éƒ¨ç±»
+- å†…éƒ¨ç±»ä¸Žç»„åˆæ˜¯å®Œå…¨ä¸åŒçš„æ¦‚å¿µï¼Œè¿™ä¸€ç‚¹å¾ˆé‡è¦ã€‚
+- ä¸ºä»€ä¹ˆéœ€è¦å†…éƒ¨ç±»ï¼Ÿ â€” **ä¸»è¦æ˜¯è§£å†³äº†å¤šç»§æ‰¿çš„é—®é¢˜ï¼Œç»§æ‰¿å…·ä½“æˆ–æŠ½è±¡ç±»**
+    - ä¸€èˆ¬æ¥è¯´ï¼Œå†…éƒ¨ç±»ç»§æ‰¿è‡ªæŸä¸ªç±»æˆ–å®žçŽ°æŸä¸ªæŽ¥å£ï¼Œå†…éƒ¨ç±»çš„ä»£ç æ“ä½œåˆ›å»ºå®ƒçš„å¤–å›´ç±»çš„å¯¹è±¡ã€‚æ‰€ä»¥å¯ä»¥è®¤ä¸º**å†…éƒ¨ç±»æä¾›äº†æŸç§è¿›å…¥å…¶å¤–å›´ç±»çš„çª—å£ã€‚**
+    - å†…éƒ¨ç±»æœ€å¸å¼•äººçš„åŽŸå› æ˜¯ï¼šæ¯ä¸ªå†…éƒ¨ç±»éƒ½èƒ½ç‹¬ç«‹åœ°ç»§æ‰¿è‡ªä¸€ä¸ªï¼ˆæŽ¥å£çš„ï¼‰å®žçŽ°ï¼Œæ‰€ä»¥æ— è®ºå¤–å›´ç±»æ˜¯å¦å·²ç»ç»§æ‰¿äº†æŸä¸ªï¼ˆæŽ¥å£çš„ï¼‰å®žçŽ°ï¼Œå¯¹äºŽå†…éƒ¨ç±»éƒ½æ²¡æœ‰å½±å“ã€‚
+    - å¦‚æžœæ²¡æœ‰å†…éƒ¨ç±»æä¾›çš„ã€å¯ä»¥ç»§æ‰¿å¤šä¸ªå…·ä½“çš„æˆ–æŠ½è±¡çš„ç±»çš„èƒ½åŠ›ï¼Œä¸€äº›è®¾è®¡ä¸Žç¼–ç¨‹é—®é¢˜å°±å¾ˆéš¾è§£å†³ã€‚ä»Žè¿™ä¸ªè§’åº¦çœ‹ï¼Œå†…éƒ¨ç±»ä½¿å¾—å¤šé‡ç»§æ‰¿çš„è§£å†³æ–¹æ¡ˆå˜å¾—å®Œæ•´ã€‚æŽ¥å£è§£å†³äº†éƒ¨åˆ†é—®é¢˜ï¼Œè€Œå†…éƒ¨ç±»æœ‰æ•ˆçš„å®žçŽ°äº†â€œå¤šé‡ç»§æ‰¿â€ã€‚ä¹Ÿå°±æ˜¯è¯´ï¼Œ**å†…éƒ¨ç±»å…è®¸ç»§æ‰¿å¤šä¸ªéžæŽ¥å£ç±»åž‹ã€‚**
 
-     ¿¼ÂÇÕâÑùÒ»ÖÖÇéÐÎ£ºÈç¹û±ØÐëÔÚÒ»¸öÀàÖÐÒÔÄ³ÖÖ·½Ê½ÊµÏÖÁ½¸ö½Ó¿Ú¡£ÓÉÓÚ½Ó¿ÚµÄÁé»îÐÔ£¬ÄãÓÐÁ½ÖÖÑ¡Ôñ£ºÊ¹ÓÃµ¥Ò»Àà»òÕßÊ¹ÓÃÄÚ²¿Àà¡£µ«Èç¹ûÓµÓÐµÄÊÇ³éÏóµÄÀà»ò¾ßÌåµÄÀà£¬¶ø²»ÊÇ½Ó¿Ú£¬ÄÇ¾ÍÖ»ÄÜÊ¹ÓÃÄÚ²¿Àà²ÅÄÜÊµÏÖ¶àÖØ¼Ì³Ð¡£
+     è€ƒè™‘è¿™æ ·ä¸€ç§æƒ…å½¢ï¼šå¦‚æžœå¿…é¡»åœ¨ä¸€ä¸ªç±»ä¸­ä»¥æŸç§æ–¹å¼å®žçŽ°ä¸¤ä¸ªæŽ¥å£ã€‚ç”±äºŽæŽ¥å£çš„çµæ´»æ€§ï¼Œä½ æœ‰ä¸¤ç§é€‰æ‹©ï¼šä½¿ç”¨å•ä¸€ç±»æˆ–è€…ä½¿ç”¨å†…éƒ¨ç±»ã€‚ä½†å¦‚æžœæ‹¥æœ‰çš„æ˜¯æŠ½è±¡çš„ç±»æˆ–å…·ä½“çš„ç±»ï¼Œè€Œä¸æ˜¯æŽ¥å£ï¼Œé‚£å°±åªèƒ½ä½¿ç”¨å†…éƒ¨ç±»æ‰èƒ½å®žçŽ°å¤šé‡ç»§æ‰¿ã€‚
 
- Ê¹ÓÃÄÚ²¿Àà£¬»¹¿ÉÒÔ»ñµÃÆäËûÒ»Ð©ÌØÐÔ£º
-    - ÄÚ²¿Àà¿ÉÒÔÓÐ¶à¸öÊµÀý£¬Ã¿¸öÊµÀý¶¼ÓÐ×Ô¼ºµÄ×´Ì¬ÐÅÏ¢£¬²¢ÇÒÓëÆäÍâÎ§Àà¶ÔÏóµÄÐÅÏ¢Ïà»¥¶ÀÁ¢¡£
-    - ÔÚµ¥¸öÍâÎ§ÀàÖÐ£¬¿ÉÒÔÈÃ¶à¸öÄÚ²¿ÀàÒÔ²»Í¬µÄ·½Ê½ÊµÏÖÍ¬Ò»¸ö½Ó¿Ú»ò¼Ì³ÐÍ¬Ò»¸öÀà¡£
-    - ´´½¨ÄÚ²¿Àà¶ÔÏóµÄÊ±¿Ì²¢²»ÒÀÀµÓÚÍâÎ§Àà¶ÔÏóµÄ´´½¨¡£
-    - ÄÚ²¿Àà²¢Ã»ÓÐÁîÈËÃÔ»óµÄis-a¹ØÏµ£¬Ëü¾ÍÊÇÒ»¸ö¶ÀÁ¢µÄÊµÌå¡£
+ ä½¿ç”¨å†…éƒ¨ç±»ï¼Œè¿˜å¯ä»¥èŽ·å¾—å…¶ä»–ä¸€äº›ç‰¹æ€§ï¼š
+    - å†…éƒ¨ç±»å¯ä»¥æœ‰å¤šä¸ªå®žä¾‹ï¼Œæ¯ä¸ªå®žä¾‹éƒ½æœ‰è‡ªå·±çš„çŠ¶æ€ä¿¡æ¯ï¼Œå¹¶ä¸”ä¸Žå…¶å¤–å›´ç±»å¯¹è±¡çš„ä¿¡æ¯ç›¸äº’ç‹¬ç«‹ã€‚
+    - åœ¨å•ä¸ªå¤–å›´ç±»ä¸­ï¼Œå¯ä»¥è®©å¤šä¸ªå†…éƒ¨ç±»ä»¥ä¸åŒçš„æ–¹å¼å®žçŽ°åŒä¸€ä¸ªæŽ¥å£æˆ–ç»§æ‰¿åŒä¸€ä¸ªç±»ã€‚
+    - åˆ›å»ºå†…éƒ¨ç±»å¯¹è±¡çš„æ—¶åˆ»å¹¶ä¸ä¾èµ–äºŽå¤–å›´ç±»å¯¹è±¡çš„åˆ›å»ºã€‚
+    - å†…éƒ¨ç±»å¹¶æ²¡æœ‰ä»¤äººè¿·æƒ‘çš„is-aå…³ç³»ï¼Œå®ƒå°±æ˜¯ä¸€ä¸ªç‹¬ç«‹çš„å®žä½“ã€‚
 
-### 11. StringÀàÐÍ ¡ª ²»¿É±ä
-- **ÓÃÓÚStringµÄ¡°+¡±Óë¡°+=¡±ÊÇJavaÖÐ½öÓÐµÄÁ½¸öÖØÔØ¹ýµÄ²Ù×÷·û£¬¶øJava²¢²»ÔÊÐí³ÌÐòÔ±ÖØÔØÈÎºÎ²Ù×÷·û¡£**
-- ¿¼ÂÇµ½Ð§ÂÊÒòËØ£¬±àÒëÆ÷»á¶ÔStringµÄ¶à´Î+²Ù×÷½øÐÐÓÅ»¯£¬ÓÅ»¯Ê¹ÓÃ`StringBuilder`²Ù×÷£¨`javap -c class×Ö½ÚÂëÎÄ¼þÃû ÃüÁî`²é¿´¾ßÌåÓÅ»¯¹ý³Ì£©¡£ÕâÈÃÄã¾õµÃ¿ÉÒÔËæÒâÊ¹ÓÃString¶ÔÏó£¬·´Õý±àÒëÆ÷»áÎªÄã×Ô¶¯µØÓÅ»¯ÐÔÄÜ¡£µ«±àÒëÆ÷ÄÜÓÅ»¯µ½Ê²Ã´³Ì¶È»¹²»ºÃËµ£¬²»Ò»¶¨ÄÜÓÅ»¯µ½Ê¹ÓÃStringBuilder´úÌæStringÏàÍ¬µÄÐ§¹û¡£±ÈÈç£º
+### 11. Stringç±»åž‹ â€” ä¸å¯å˜
+- **ç”¨äºŽStringçš„â€œ+â€ä¸Žâ€œ+=â€æ˜¯Javaä¸­ä»…æœ‰çš„ä¸¤ä¸ªé‡è½½è¿‡çš„æ“ä½œç¬¦ï¼Œè€ŒJavaå¹¶ä¸å…è®¸ç¨‹åºå‘˜é‡è½½ä»»ä½•æ“ä½œç¬¦ã€‚**
+- è€ƒè™‘åˆ°æ•ˆçŽ‡å› ç´ ï¼Œç¼–è¯‘å™¨ä¼šå¯¹Stringçš„å¤šæ¬¡+æ“ä½œè¿›è¡Œä¼˜åŒ–ï¼Œä¼˜åŒ–ä½¿ç”¨`StringBuilder`æ“ä½œï¼ˆ`javap -c classå­—èŠ‚ç æ–‡ä»¶å å‘½ä»¤`æŸ¥çœ‹å…·ä½“ä¼˜åŒ–è¿‡ç¨‹ï¼‰ã€‚è¿™è®©ä½ è§‰å¾—å¯ä»¥éšæ„ä½¿ç”¨Stringå¯¹è±¡ï¼Œåæ­£ç¼–è¯‘å™¨ä¼šä¸ºä½ è‡ªåŠ¨åœ°ä¼˜åŒ–æ€§èƒ½ã€‚ä½†ç¼–è¯‘å™¨èƒ½ä¼˜åŒ–åˆ°ä»€ä¹ˆç¨‹åº¦è¿˜ä¸å¥½è¯´ï¼Œä¸ä¸€å®šèƒ½ä¼˜åŒ–åˆ°ä½¿ç”¨StringBuilderä»£æ›¿Stringç›¸åŒçš„æ•ˆæžœã€‚æ¯”å¦‚ï¼š
     ```java
     public class WitherStringBuilder {
     	public String implicit(String[] fields) {
@@ -607,8 +607,8 @@ JavaÐéÄâ»úÖÐÓÐÐí¶à¸½¼Ó¼¼ÊõÓÃÒÔÌáÉýËÙ¶È£¬ÓÈÆäÊÇÓë¼ÓÔØÆ÷²Ù×÷Ïà¹ØµÄ£¬±»³ÆÎª¡°¼´Ê±¡±
     	}
     }
     ```
-ÔËÐÐ`javap -c WitherStringBuilder`£¬¿ÉÒÔ¿´µ½Á½¸ö·½·¨¶ÔÓ¦µÄ×Ö½ÚÂë¡£
-**implicit·½·¨£º**
+è¿è¡Œ`javap -c WitherStringBuilder`ï¼Œå¯ä»¥çœ‹åˆ°ä¸¤ä¸ªæ–¹æ³•å¯¹åº”çš„å­—èŠ‚ç ã€‚
+**implicitæ–¹æ³•ï¼š**
 > public java.lang.String implicit(java.lang.String[]);
    Code:
       0: ldc #16 // String
@@ -668,9 +668,9 @@ String:()Ljava/lang/String;
      38: aload_2
      39: areturn
 
- ¿ÉÒÔ·¢ÏÖ£¬StringBuilderÊÇÔÚÑ­»·Ö®ÄÚ¹¹ÔìµÄ£¬ÕâÒâÎ¶×ÅÃ¿¾­¹ýÑ­»·Ò»´Î£¬¾Í»á´´½¨Ò»¸öÐÂµÄStringBuilder¶ÔÏó¡£
+ å¯ä»¥å‘çŽ°ï¼ŒStringBuilderæ˜¯åœ¨å¾ªçŽ¯ä¹‹å†…æž„é€ çš„ï¼Œè¿™æ„å‘³ç€æ¯ç»è¿‡å¾ªçŽ¯ä¸€æ¬¡ï¼Œå°±ä¼šåˆ›å»ºä¸€ä¸ªæ–°çš„StringBuilderå¯¹è±¡ã€‚
 
- **explicit·½·¨£º**
+ **explicitæ–¹æ³•ï¼š**
   >public java.lang.String explicit(java.lang.String[]);
     Code:
        0: **new #18 // class java/lang/StringBuilder**
@@ -699,18 +699,18 @@ String:()Ljava/lang/String;
       34: areturn
 }
 
- ¿ÉÒÔ¿´µ½£¬²»½öÑ­»·²¿·ÖµÄ´úÂë¸ü¼ò¶Ì¡¢¸ü¼òµ¥£¬¶øÇÒËüÖ»Éú³ÉÁËÒ»¸öStringBuilder¶ÔÏó¡£ÏÔÊ½µÄ´´½¨StringBuilder»¹ÔÊÐíÄãÔ¤ÏÈÎªÆäÖ¸¶¨´óÐ¡¡£**Èç¹ûÄãÒÑ¾­ÖªµÀ×îÖÕµÄ×Ö·û´®´ó¸ÅÓÐ¶à³¤£¬ÄÇÔ¤ÏÈÖ¸¶¨StringBuilderµÄ´óÐ¡¿ÉÒÔ±ÜÃâ¶à´ÎÖØÐÂ·ÖÅä»º³å¡£**
+ å¯ä»¥çœ‹åˆ°ï¼Œä¸ä»…å¾ªçŽ¯éƒ¨åˆ†çš„ä»£ç æ›´ç®€çŸ­ã€æ›´ç®€å•ï¼Œè€Œä¸”å®ƒåªç”Ÿæˆäº†ä¸€ä¸ªStringBuilderå¯¹è±¡ã€‚æ˜¾å¼çš„åˆ›å»ºStringBuilderè¿˜å…è®¸ä½ é¢„å…ˆä¸ºå…¶æŒ‡å®šå¤§å°ã€‚**å¦‚æžœä½ å·²ç»çŸ¥é“æœ€ç»ˆçš„å­—ç¬¦ä¸²å¤§æ¦‚æœ‰å¤šé•¿ï¼Œé‚£é¢„å…ˆæŒ‡å®šStringBuilderçš„å¤§å°å¯ä»¥é¿å…å¤šæ¬¡é‡æ–°åˆ†é…ç¼“å†²ã€‚**
  
   --- 
- ####×Ü½á
- Òò´Ë£¬µ±ÄãÎªÒ»¸öÀàÖØÐ´toString()·½·¨Ê±£¬Èç¹û×Ö·û´®²Ù×÷±È½Ï¼òµ¥£¬ÄÇ¾Í¿ÉÒÔÐÅÀµ±àÒëÆ÷£¬Ëü»áÎªÄãºÏÀíµØ¹¹Ôì×îÖÕµÄ×Ö·û´®½á¹û¡£µ«ÊÇ£¬Èç¹ûÄãÒªÔÚtoString()·½·¨ÖÐÊ¹ÓÃÑ­»·£¬ÄÇÃ´×îºÃ×Ô¼º´´½¨Ò»¸öStringBuilder¶ÔÏó£¬ÓÃËüÀ´¹¹Ôì×îÖÕµÄ½á¹û¡£
+ ####æ€»ç»“
+ å› æ­¤ï¼Œå½“ä½ ä¸ºä¸€ä¸ªç±»é‡å†™toString()æ–¹æ³•æ—¶ï¼Œå¦‚æžœå­—ç¬¦ä¸²æ“ä½œæ¯”è¾ƒç®€å•ï¼Œé‚£å°±å¯ä»¥ä¿¡èµ–ç¼–è¯‘å™¨ï¼Œå®ƒä¼šä¸ºä½ åˆç†åœ°æž„é€ æœ€ç»ˆçš„å­—ç¬¦ä¸²ç»“æžœã€‚ä½†æ˜¯ï¼Œå¦‚æžœä½ è¦åœ¨toString()æ–¹æ³•ä¸­ä½¿ç”¨å¾ªçŽ¯ï¼Œé‚£ä¹ˆæœ€å¥½è‡ªå·±åˆ›å»ºä¸€ä¸ªStringBuilderå¯¹è±¡ï¼Œç”¨å®ƒæ¥æž„é€ æœ€ç»ˆçš„ç»“æžœã€‚
  
  ---
 
-- `System.out.printf()`ºÍ`System.out.format()`·½·¨Ä£·Â×ÔCµÄ`printf`£¬¿ÉÒÔ¸ñÊ½»¯×Ö·û´®£¬Á½ÕßÊÇÍêÈ«µÈ¼ÛµÄ¡£
+- `System.out.printf()`å’Œ`System.out.format()`æ–¹æ³•æ¨¡ä»¿è‡ªCçš„`printf`ï¼Œå¯ä»¥æ ¼å¼åŒ–å­—ç¬¦ä¸²ï¼Œä¸¤è€…æ˜¯å®Œå…¨ç­‰ä»·çš„ã€‚
 
- JavaÖÐ£¬ËùÓÐÐÂµÄ¸ñÊ½»¯¹¦ÄÜ¶¼ÓÉ`java.util.Formatter`Àà´¦Àí¡£
-`String.format()`·½·¨²Î¿¼ÁËCÖÐµÄ`sprintf()`·½·¨£¬ÒÔÉú³É¸ñÊ½»¯µÄString¶ÔÏó£¬ÊÇÒ»¸östatic·½·¨£¬Ëü½ÓÊÜÓë`Formatter.format()`·½·¨Ò»ÑùµÄ²ÎÊý£¬µ«·µ»ØÒ»¸öString¶ÔÏó¡£µ±ÄãÖ»ÐèÊ¹ÓÃ`format()`·½·¨Ò»´ÎµÄÊ±ºò£¬¸Ã·½·¨ºÜ·½±ã¡£
+ Javaä¸­ï¼Œæ‰€æœ‰æ–°çš„æ ¼å¼åŒ–åŠŸèƒ½éƒ½ç”±`java.util.Formatter`ç±»å¤„ç†ã€‚
+`String.format()`æ–¹æ³•å‚è€ƒäº†Cä¸­çš„`sprintf()`æ–¹æ³•ï¼Œä»¥ç”Ÿæˆæ ¼å¼åŒ–çš„Stringå¯¹è±¡ï¼Œæ˜¯ä¸€ä¸ªstaticæ–¹æ³•ï¼Œå®ƒæŽ¥å—ä¸Ž`Formatter.format()`æ–¹æ³•ä¸€æ ·çš„å‚æ•°ï¼Œä½†è¿”å›žä¸€ä¸ªStringå¯¹è±¡ã€‚å½“ä½ åªéœ€ä½¿ç”¨`format()`æ–¹æ³•ä¸€æ¬¡çš„æ—¶å€™ï¼Œè¯¥æ–¹æ³•å¾ˆæ–¹ä¾¿ã€‚
     ```java
     import java.util.Arrays;
     import java.util.Formatter;
@@ -738,20 +738,20 @@ String:()Ljava/lang/String;
     }
     ```
 
-### 12. ÐòÁÐ»¯¿ØÖÆ
-- µ±ÎÒÃÇ¶ÔÐòÁÐ»¯½øÐÐ¿ØÖÆÊ±£¬¿ÉÄÜÄ³¸öÌØ¶¨×Ó¶ÔÏó²»ÏëÈÃJavaÐòÁÐ»¯»úÖÆ×Ô¶¯±£´æÓë»Ö¸´¡£Èç¹û×Ó¶ÔÏó±íÊ¾µÄÊÇÎÒÃÇ²»Ï£Íû½«ÆäÐòÁÐ»¯µÄÃô¸ÐÐÅÏ¢£¨ÈçÃÜÂë£©£¬Í¨³£»áÃæÁÙÕâÖÖÇé¿ö¡£¼´Ê¹¶ÔÏóÖÐµÄÕâÐ©ÐÅÏ¢ÊÇprivateÊôÐÔ£¬Ò»¾­ÐòÁÐ»¯´¦Àí£¬ÈËÃÇ¾Í¿ÉÒÔÍ¨¹ý¶ÁÈ¡ÎÄ¼þ»òÕßÀ¹½ØÍøÂç´«ÊäµÄ·½Ê½À´·ÃÎÊµ½Ëü¡£ÓÐÁ½ÖÖ°ì·¨¿ÉÒÔ·ÀÖ¹¶ÔÏóµÄÃô¸Ð²¿·Ö±»ÐòÁÐ»¯£º
-    - ÊµÏÖ`Externalizable`´úÌæÊµÏÖ`Serializable`½Ó¿ÚÀ´¶ÔÐòÁÐ»¯¹ý³Ì½øÐÐ¿ØÖÆ£¬`Externalizable`¼Ì³ÐÁË`Serializable`½Ó¿Ú£¬Í¬Ê±ÔöÌíÁËÁ½¸ö·½·¨£º`writeExternal()`ºÍ`readExternal()`¡£
+### 12. åºåˆ—åŒ–æŽ§åˆ¶
+- å½“æˆ‘ä»¬å¯¹åºåˆ—åŒ–è¿›è¡ŒæŽ§åˆ¶æ—¶ï¼Œå¯èƒ½æŸä¸ªç‰¹å®šå­å¯¹è±¡ä¸æƒ³è®©Javaåºåˆ—åŒ–æœºåˆ¶è‡ªåŠ¨ä¿å­˜ä¸Žæ¢å¤ã€‚å¦‚æžœå­å¯¹è±¡è¡¨ç¤ºçš„æ˜¯æˆ‘ä»¬ä¸å¸Œæœ›å°†å…¶åºåˆ—åŒ–çš„æ•æ„Ÿä¿¡æ¯ï¼ˆå¦‚å¯†ç ï¼‰ï¼Œé€šå¸¸ä¼šé¢ä¸´è¿™ç§æƒ…å†µã€‚å³ä½¿å¯¹è±¡ä¸­çš„è¿™äº›ä¿¡æ¯æ˜¯privateå±žæ€§ï¼Œä¸€ç»åºåˆ—åŒ–å¤„ç†ï¼Œäººä»¬å°±å¯ä»¥é€šè¿‡è¯»å–æ–‡ä»¶æˆ–è€…æ‹¦æˆªç½‘ç»œä¼ è¾“çš„æ–¹å¼æ¥è®¿é—®åˆ°å®ƒã€‚æœ‰ä¸¤ç§åŠžæ³•å¯ä»¥é˜²æ­¢å¯¹è±¡çš„æ•æ„Ÿéƒ¨åˆ†è¢«åºåˆ—åŒ–ï¼š
+    - å®žçŽ°`Externalizable`ä»£æ›¿å®žçŽ°`Serializable`æŽ¥å£æ¥å¯¹åºåˆ—åŒ–è¿‡ç¨‹è¿›è¡ŒæŽ§åˆ¶ï¼Œ`Externalizable`ç»§æ‰¿äº†`Serializable`æŽ¥å£ï¼ŒåŒæ—¶å¢žæ·»äº†ä¸¤ä¸ªæ–¹æ³•ï¼š`writeExternal()`å’Œ`readExternal()`ã€‚
 
-     **Á½ÕßÔÚ·´ÐòÁÐ»¯Ê±µÄÇø±ð**£º
-     - ¶ÔSerializable¶ÔÏó·´ÐòÁÐ»¯Ê±£¬**ÓÉÓÚSerializable¶ÔÏóÍêÈ«ÒÔËü´æ´¢µÄ¶þ½øÖÆÎ»Îª»ù´¡À´¹¹Ôì£¬Òò´Ë²¢²»»áµ÷ÓÃÈÎºÎ¹¹Ôìº¯Êý£¬**Òò´ËSerializableÀàÎÞÐèÄ¬ÈÏ¹¹Ôìº¯Êý£¬µ«ÊÇµ±SerializableÀàµÄ¸¸ÀàÃ»ÓÐÊµÏÖSerializable½Ó¿ÚÊ±£¬·´ÐòÁÐ»¯¹ý³Ì»áµ÷ÓÃ¸¸ÀàµÄÄ¬ÈÏ¹¹Ôìº¯Êý£¬Òò´Ë¸Ã¸¸Àà±ØÐèÓÐÄ¬ÈÏ¹¹Ôìº¯Êý£¬·ñÔò»áÅ×Òì³£¡£
-     - ¶ÔExternalizable¶ÔÏó·´ÐòÁÐ»¯Ê±£¬**»áÏÈµ÷ÓÃÀàµÄ²»´ø²ÎÊýµÄ¹¹Ôì·½·¨**£¬ÕâÊÇÓÐ±ðÓÚÄ¬ÈÏ·´ÐòÁÐ·½Ê½µÄ¡£Èç¹û°ÑÀàµÄ²»´ø²ÎÊýµÄ¹¹Ôì·½·¨É¾³ý£¬»òÕß°Ñ¸Ã¹¹Ôì·½·¨µÄ·ÃÎÊÈ¨ÏÞÉèÖÃÎªprivate¡¢Ä¬ÈÏ»òprotected¼¶±ð£¬»áÅ×³ö`java.io.InvalidException: no valid constructor`Òì³££¬Òò´Ë**Externalizable¶ÔÏó±ØÐëÓÐÄ¬ÈÏ¹¹Ôìº¯Êý£¬¶øÇÒ±ØÐèÊÇpublicµÄ¡£**
- - `Externalizable`µÄÌæ´ú·½·¨£ºÈç¹û²»ÊÇÌØ±ð¼á³ÖÊµÏÖExternalizable½Ó¿Ú£¬ÄÇÃ´»¹ÓÐÁíÒ»ÖÖ·½·¨¡£ÎÒÃÇ¿ÉÒÔÊµÏÖ`Serializable`½Ó¿Ú£¬²¢Ìí¼Ó`writeObject()`ºÍ`readObject()`µÄ·½·¨¡£Ò»µ©¶ÔÏó±»ÐòÁÐ»¯»òÕßÖØÐÂ×°Åä£¬¾Í»á·Ö±ðµ÷ÓÃÄÇÁ½¸ö·½·¨¡£Ò²¾ÍÊÇËµ£¬**Ö»ÒªÌá¹©ÁËÕâÁ½¸ö·½·¨£¬¾Í»áÓÅÏÈÊ¹ÓÃËüÃÇ£¬¶ø²»¿¼ÂÇÄ¬ÈÏµÄÐòÁÐ»¯»úÖÆ¡£**
+     **ä¸¤è€…åœ¨ååºåˆ—åŒ–æ—¶çš„åŒºåˆ«**ï¼š
+     - å¯¹Serializableå¯¹è±¡ååºåˆ—åŒ–æ—¶ï¼Œ**ç”±äºŽSerializableå¯¹è±¡å®Œå…¨ä»¥å®ƒå­˜å‚¨çš„äºŒè¿›åˆ¶ä½ä¸ºåŸºç¡€æ¥æž„é€ ï¼Œå› æ­¤å¹¶ä¸ä¼šè°ƒç”¨ä»»ä½•æž„é€ å‡½æ•°ï¼Œ**å› æ­¤Serializableç±»æ— éœ€é»˜è®¤æž„é€ å‡½æ•°ï¼Œä½†æ˜¯å½“Serializableç±»çš„çˆ¶ç±»æ²¡æœ‰å®žçŽ°SerializableæŽ¥å£æ—¶ï¼Œååºåˆ—åŒ–è¿‡ç¨‹ä¼šè°ƒç”¨çˆ¶ç±»çš„é»˜è®¤æž„é€ å‡½æ•°ï¼Œå› æ­¤è¯¥çˆ¶ç±»å¿…éœ€æœ‰é»˜è®¤æž„é€ å‡½æ•°ï¼Œå¦åˆ™ä¼šæŠ›å¼‚å¸¸ã€‚
+     - å¯¹Externalizableå¯¹è±¡ååºåˆ—åŒ–æ—¶ï¼Œ**ä¼šå…ˆè°ƒç”¨ç±»çš„ä¸å¸¦å‚æ•°çš„æž„é€ æ–¹æ³•**ï¼Œè¿™æ˜¯æœ‰åˆ«äºŽé»˜è®¤ååºåˆ—æ–¹å¼çš„ã€‚å¦‚æžœæŠŠç±»çš„ä¸å¸¦å‚æ•°çš„æž„é€ æ–¹æ³•åˆ é™¤ï¼Œæˆ–è€…æŠŠè¯¥æž„é€ æ–¹æ³•çš„è®¿é—®æƒé™è®¾ç½®ä¸ºprivateã€é»˜è®¤æˆ–protectedçº§åˆ«ï¼Œä¼šæŠ›å‡º`java.io.InvalidException: no valid constructor`å¼‚å¸¸ï¼Œå› æ­¤**Externalizableå¯¹è±¡å¿…é¡»æœ‰é»˜è®¤æž„é€ å‡½æ•°ï¼Œè€Œä¸”å¿…éœ€æ˜¯publicçš„ã€‚**
+ - `Externalizable`çš„æ›¿ä»£æ–¹æ³•ï¼šå¦‚æžœä¸æ˜¯ç‰¹åˆ«åšæŒå®žçŽ°ExternalizableæŽ¥å£ï¼Œé‚£ä¹ˆè¿˜æœ‰å¦ä¸€ç§æ–¹æ³•ã€‚æˆ‘ä»¬å¯ä»¥å®žçŽ°`Serializable`æŽ¥å£ï¼Œå¹¶æ·»åŠ `writeObject()`å’Œ`readObject()`çš„æ–¹æ³•ã€‚ä¸€æ—¦å¯¹è±¡è¢«åºåˆ—åŒ–æˆ–è€…é‡æ–°è£…é…ï¼Œå°±ä¼šåˆ†åˆ«è°ƒç”¨é‚£ä¸¤ä¸ªæ–¹æ³•ã€‚ä¹Ÿå°±æ˜¯è¯´ï¼Œ**åªè¦æä¾›äº†è¿™ä¸¤ä¸ªæ–¹æ³•ï¼Œå°±ä¼šä¼˜å…ˆä½¿ç”¨å®ƒä»¬ï¼Œè€Œä¸è€ƒè™‘é»˜è®¤çš„åºåˆ—åŒ–æœºåˆ¶ã€‚**
 
-     ÕâÐ©·½·¨±ØÐëº¬ÓÐÏÂÁÐ×¼È·µÄÇ©Ãû£º
+     è¿™äº›æ–¹æ³•å¿…é¡»å«æœ‰ä¸‹åˆ—å‡†ç¡®çš„ç­¾åï¼š
     ```java
     private void writeObject(ObjectOutputStream stream) 
             throws IOException;
     private void readObject(ObjectInputStream stream)
             throws IOException, ClassNotFoundException
     ```
- - ¿ÉÒÔÓÃ`transient`¹Ø¼ü×ÖÖð¸ö×Ö¶ÎµØ¹Ø±ÕÐòÁÐ»¯£¬ËüµÄÒâË¼ÊÇ¡°**²»ÓÃÂé·³Äã±£´æ»ò»Ö¸´Êý¾Ý¡ªÎÒ×Ô¼º»á´¦ÀíµÄ**¡±¡£ÓÉÓÚExternalizable¶ÔÏóÔÚÄ¬ÈÏÇé¿öÏÂ²»±£´æËüÃÇµÄÈÎºÎ×Ö¶Î£¬ËùÒÔ**transient¹Ø¼ü×ÖÖ»ÄÜºÍSerializable¶ÔÏóÒ»ÆðÊ¹ÓÃ¡£**
+ - å¯ä»¥ç”¨`transient`å…³é”®å­—é€ä¸ªå­—æ®µåœ°å…³é—­åºåˆ—åŒ–ï¼Œå®ƒçš„æ„æ€æ˜¯â€œ**ä¸ç”¨éº»çƒ¦ä½ ä¿å­˜æˆ–æ¢å¤æ•°æ®â€”æˆ‘è‡ªå·±ä¼šå¤„ç†çš„**â€ã€‚ç”±äºŽExternalizableå¯¹è±¡åœ¨é»˜è®¤æƒ…å†µä¸‹ä¸ä¿å­˜å®ƒä»¬çš„ä»»ä½•å­—æ®µï¼Œæ‰€ä»¥**transientå…³é”®å­—åªèƒ½å’ŒSerializableå¯¹è±¡ä¸€èµ·ä½¿ç”¨ã€‚**
